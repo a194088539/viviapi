@@ -5,37 +5,11 @@
 
 开发工具: visual studio 2010-2019
 
-https://gitee.com/a194088539/viviapi/raw/master/img/8.png
+![输入图片说明](img/8.png)
 
-https://gitee.com/a194088539/viviapi/raw/master/img/9.png
+![输入图片说明](img/9.png)
 
-https://gitee.com/a194088539/viviapi/raw/master/img/10.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/11.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/12.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/13.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/14.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/15.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/16.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/1.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/2.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/3.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/4.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/5.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/6.png
-
-https://gitee.com/a194088539/viviapi/raw/master/img/7.png
+![输入图片说明](img/10.png)
 
 演示地址：
 
