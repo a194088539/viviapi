@@ -1,0 +1,172 @@
+.paytypes{
+	padding:30px 20px;
+}
+
+.paytypes div{
+	width:210px;
+	height:40px;
+	float:left;
+	padding:4px 0;
+	overflow: hidden;
+}
+
+.paytypes div b{
+	display: block;
+	padding-top: 15px;
+	height: 5px;
+	width: 20px;
+	float: left;
+}
+
+.paytypes div label{
+	display: block;
+	width: 160px;
+	height: 40px;
+	float: left;
+}
+
+.paytypes div .ico{
+	display: block;
+	width: 130px;
+	height: 40px;
+	float: left;
+	background-image: url(images/bank_icons.png);
+	border: 1px solid #eee;
+}
+
+.paytypes div .ico:hover{
+	border: 1px solid #ffb47d
+}
+
+.paytypes div span{
+	display: block;
+	width: 20px;
+	text-align: center;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	background: #c9e9f5;
+	border: 1px solid #eee;
+	border-left:none;
+	font-size:12px;
+	word-wrap:break-word;
+	word-break:nomal;
+}
+
+
+
+
+.paytypes div  .cmb{
+	background-position:13px -75px;
+}
+.paytypes div  .icbc{
+	background-position:8px -35px;
+}
+.paytypes div  .ccb{
+	background-position: 8px -315px;
+}
+.paytypes div  .boc{
+	background-position: 13px -515px;
+}
+.paytypes div  .cib{
+	background-position:5px -3360px;
+}
+.paytypes div  .gdb{
+	background-position:3px -275px;
+}
+.paytypes div  .citic{
+	background-position:5px -195px;
+}
+.paytypes div  .sdb{
+	background-position:3px -235px;
+}
+.paytypes div  .spabank{
+	background-position:10px -1875px;
+}
+.paytypes div  .abc{
+	background-position:5px -475px;
+}
+.paytypes div  .comm{
+	background-position:10px -595px;
+}
+.paytypes div  .postgc{
+	background-position:10px -395px;
+}
+.paytypes div  .ceb{
+	background-position:10px -435px;
+}
+.paytypes div  .spdb{
+	background-position:10px -355px;
+}
+.paytypes div  .cmbc{
+	background-position:10px -115px;
+}
+.paytypes div  .bjbank{
+	background-position:10px -3235px;
+}
+.paytypes div  .hzcb{
+	background-position:10px -755px;
+}
+.paytypes div  .bjrcb{
+	background-position:10px -2635px;
+}
+.paytypes div  .shbank{
+	background-position:10px -835px;
+}
+.paytypes div  .fdb{
+	background-position:10px -1315px;
+}
+.paytypes div  .nbbank{
+	background-position:10px -1235px;
+}
+.paytypes div  .shrcb{
+	background-position:5px -2477px;
+}
+.paytypes div  .wzcb{
+	background-position:15px -1713px;
+}
+.paytypes div  .jbcrb{
+	background-position:15px -2633px;
+}
+
+
+
+
+
+
+
+
+.paytypes div .alipay{
+	background-position: 5px -3775px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+/*修改选择器以 显示loading标志*/
+.onLoad div
+{
+	background:#E9FFEB url(../images/onLoad.gif) no-repeat 3px center;
+	padding: 5px 15px 5px 25px;
+	white-space: nowrap;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+} 
+
+
+.onFocus{
+	position:absolute
+}
+
+
+.onFocus div{
+	width:287px;
+	background:url(../images/verification-ui6.gif) no-repeat;
+}
+
+
+.onFocus div .t{
+	display:block;
+	height:5px;
+	overflow:hidden;
+}
+
+	
+.onFocus div .c{
+	display:block;
+	padding-left:40px
+}
+
+.onFocus div .b{
+	display:block;
+	height:5px;
+	overflow:hidden;
+	background:url(../images/verification-ui6.gif) no-repeat left -184px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.onError{
+	position:absolute
+}
+
+
+.onError div{
+	width:287px;
+	background:url(../images/verification-ui6.gif) no-repeat left -190px;
+}
+
+
+.onError div .t{
+	display:block;
+	height:5px;
+	overflow:hidden;
+}
+
+	
+.onError div .c{
+	display:block;
+	padding-left:40px
+}
+
+.onError div .b{
+	display:block;
+	height:5px;
+	overflow:hidden;
+	background:url(../images/verification-ui6.gif) no-repeat left -374px;
+}
+
+
+
+
+
+
+
+.onCorrect{
+	position:absolute;
+}
+
+.onCorrect div{
+	width:20px;
+	height:16px;
+	margin-top:5px;
+	background:url(../images/reg-menu.gif) no-repeat 4px -22px
+}
+
+
+
+
+input.input_focus{border:1px solid #0077ff}
+input.input_error{border:1px solid #fe0000}

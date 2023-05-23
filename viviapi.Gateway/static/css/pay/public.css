@@ -1,0 +1,463 @@
+@charset "utf-8";
+/*reset*/
+html { overflow-y:scroll }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { padding:0; margin:0 }
+body { font: 12px/1.5 Tahoma, Helvetica, \5b8b\4f53, sans-serif; color:#333; word-wrap:break-word; word-break:break-all; background:#fff }
+abbr, article, aside, bb, datagrid, datalist, details, dialog, eventsource, figure, footer, header, mark, menu, meter, nav, output, progress, section, time { margin:0; padding:0; display:block }
+table { border-collapse:collapse; border-spacing:0 }
+ol, ul { list-style:none outside }
+caption { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100% }
+fieldset, img { border:0 }
+a { text-decoration:none; color:#333; outline:none }
+a:hover { text-decoration:underline; color:#f30 }
+em, i { font-style:normal }
+input, select, textarea { padding:4px 3px; font:12px Tahoma, Arial, simsun; vertical-align:middle }
+select { padding:3px }
+textarea { overflow-y:auto }
+input:focus, textarea:focus { outline:0 none }
+input::-moz-focus-inner {
+border:0 none
+}
+.clearfix:after { content:"."; height:0; visibility:hidden; display:block; clear:both; font-size:0; line-height:0 }
+.clearfix { display:inline-block }
+.clearfix { display:block }
+.clear { height:0; overflow:hidden; clear:both; display:block }
+.none, .hide { display:none }
+.block { display:block }
+.v_m { vertical-align:middle }
+.v_t { vertical-align:top }
+.v_b { vertical-align:text-bottom }
+.blod { font-weight:700 }
+.fl { float:left }
+.fr { float:right }
+.pointer{ cursor:pointer}
+.txtL { text-align:left }
+.txtC { text-align:center }
+.txtR { text-align:right }
+.inp_normal2, .select2, .input_hover { margin:1px; padding:5px 3px; font-size:14px; border:1px solid #ddd; border-color:#bbb #ddd #ddd #bbb }
+.input_hover { border-color:#999 #bbb #bbb #999 }
+.input_cur { margin:0; border:2px solid #FF9000; font-size:14px; padding:5px 3px }
+.inp_normal, .inp_hover, .inp_select, .inp_gray { margin:0 3px 0 0; border:1px solid #ddd; border-color:#999 #bbb #bbb #999 }
+.inp_hover, .inp_normal:hover { border-color:#555 #888 #888 #555 }
+.inp_select, .inp_normal:select {
+border:1px solid #069;
+background:#ffffef
+}
+.f12 { font-size:12px }
+.f14, .f14b, .font14 { font-size:14px }
+.f12b, .f14b, .f16b { font-weight:700 }
+.f16, .f16b { font-size:16px }
+.lh24 { line-height:24px }
+.mt5 { margin-top:5px }
+.mt10 { margin-top:10px }
+.mt15 { margin-top:15px }
+.mt20 { margin-top:20px }
+.mr20 { margin-right:20px }
+.mb10 { margin-bottom:10px }
+.mb20 { margin-bottom:20px }
+.ml5 { margin-left:5px }
+.ml10 { margin-left:10px }
+.ml20 { margin-left:20px }
+.ml30 { margin-left:30px }
+.pt10 { padding-top:10px }
+.pt20 { padding-top:20px }
+.t_indent { text-indent:24px }
+.rel { position:relative }
+.abs { position:absolute }
+.z9 { z-index:9 }
+.w80 { width:80px }
+.w100 { width:100px }
+.w121 { width:121px }
+.w130 { width:130px }
+.w150 { width:150px }
+.w200 { width:200px }
+.w250 { width:250px }
+.w300 { width:300px }
+select.w80 { width:88px }
+select.w100 { width:108px }
+select.w130 { width:138px }
+select.w150 { width:158px }
+select.w200 { width:208px }
+select.w250 { width:258px }
+select.w300 { width:308px }
+/*验证*/
+.onShow { vertical-align:middle; padding-left:12px; color:#999999 }
+.onFocus { vertical-align:middle; position:relative; padding-left:12px }
+.onError { padding-left:12px; vertical-align:middle; color: red }
+.onSuccess { padding-left:12px; vertical-align:middle }
+.onLoad { background:#E9FFEB url(../../img/pay/validator/loading.gif) no-repeat 3px 3px; padding-left:12px; padding-top:3px; vertical-align:middle }
+.onCorrect { padding-left:12px; vertical-align:middle; color: green }
+/*sprite*/
+.step ol li, .mod_box_a .bot, .mod_box_a .bot i, .mod_box_a .top, .mod_box_a .top i, .btn_grey, .btn_grey span, .btn_red, .btn_red span, .btn_red button { background:url(../../img/pay/sprite.png) no-repeat }
+.nav .last a:hover, .nav .last a.cur, .ico_dot { background:url(../../img/pay/sprite_ico.png) no-repeat }
+.page span, .page a { background:url(../../img/pay/repeat_x.png) repeat-x }
+.container { width:960px; margin:0 auto; position:relative }
+.box_w800 { width:800px }
+.box_w720 { width:720px }
+.box_w560 { width:560px }
+.box_w620, .box_w170 { width:620px; float:left; display:inline }
+.box_w170 { width:170px }
+.box_w230 { width:230px }
+/*ico*/
+.pop_check, .warn_ico, .ico_ok_s { display:inline-block; width:15px; height:15px; margin-right:5px; background:url(../../img/pay/sprite_ico.png) -34px -309px no-repeat; vertical-align:middle; cursor:pointer }
+.warn_ico, .close_ico { display:inline-block; background:url(../../img/pay/sprite_ico.png) no-repeat; vertical-align:middle }
+.warn_ico { width:15px; height:15px; margin-left:0; background-position:-35px -372px }
+.close_ico { width:14px; height:14px; background-position:-36px -395px; cursor:pointer }
+.ico_dot { display:inline-block; zoom:1; height:18px; margin:0 5px 0 0; width:16px; background-position:-35px -195px; *background-position:-35px -193px;
+_background-position:-35px -194px; vertical-align:middle }
+.ico_ok_s { margin:0 3px 0 0; background-position:-35px -162px; vertical-align:text-bottom }
+/*ico32*/
+.ico32_suc,.ico32_war,.ico32_tips,.ico32_err{ background:url(../../img/pay/sprite_ico3.png) no-repeat; display:inline-block; width:32px; height:32px; text-indent:99em; overflow:hidden;}
+.ico32_war{ background-position:0 -42px }
+.ico32_tips{ background-position:0 -83px }
+.ico32_err{background-position:0 -126px}
+/*认证ICO*/
+.approve,.approve_gray, .certificate,.certificate_gray,.certificate_err,.pwd_card,.pwd_card_gray,.i_mobile,.i_mobile_gray{ display:inline-block; background:url(../../img/pay/sprite_ico.png) no-repeat; width:17px; height:21px; line-height:21px }
+.approve, .certificate, .pwd_card { color:#090 }
+.approve { background-position:-33px -584px }
+.approve_gray { background-position:-33px -666px }
+.certificate { background-position:-33px -638px }
+.certificate_gray { background-position:-33px -722px }
+.certificate_err{background-position:-33px -220px }
+.pwd_card { background-position:-33px -611px }
+.pwd_card_gray { background-position:-33px -694px }
+.i_mobile{background-position:-33px -558px}
+.i_mobile_gray{background-position:-33px -531px}
+/*btn*/
+.btn_yel, .btn_yel span, .btn_yel button, .btn_grey_b, .btn_grey_b span, .btn_grey_b button, .b_off,.btn_green, .btn_green span, .btn_green button{ background:url(../../img/pay/btn_a.png) no-repeat; height:30px; line-height:0; font-size:0; padding:0 4px 0 0; border:0; display:inline-block; vertical-align:middle; cursor:pointer; white-space:normal; outline:none; font-family:\5b8b\4f53; overflow:visible }
+.btn_yel, .btn_grey_b { overflow:hidden }
+.btn_yel { background-position:right 0 }
+.btn_yel:hover { background-position:right -35px; text-decoration:none }
+.btn_yel span, .btn_yel button, .btn_grey_b span, .btn_grey_b button { background-position:0 0; margin:0; padding:0 12px 0 16px; color:#fff; font-size:14px; font-weight:700; line-height:30px; _line-height:29px }
+.btn_yel:hover span, .btn_yel:hover button { background-position:0 -35px }
+.btn_grey_b { background-position:right -70px }
+.btn_grey_b:hover { background-position:right -105px; text-decoration:none }
+.btn_grey_b span, .btn_grey_b button { background-position:0 -70px; color:#333 }
+.btn_grey_b:hover span, .btn_grey_b:hover button { background-position:0 -105px }
+/*btn1 off*/
+.btn_yel_off button, .btn_off button { color:#666; cursor:default }
+.b_off { background-position:right -70px; color:#ccc; cursor:default }
+.b_off:hover { background-position:right -70px }
+.b_off span, .b_off button, .b_off:hover span, .b_off:hover button { background-position:0 -70px; color:#ccc; cursor:default }
+/* btn2 */
+.btnB, .btnB span, .btnB button, .btnB_2, .btnB_2 span, .btnB_2 button { background:url(../../img/pay/btn_b.png) no-repeat; height:26px; line-height:0; font-size:0; padding:0 4px 0 0; border:0; display:inline-block; vertical-align:middle; cursor:pointer; white-space:normal; outline:none; font-family:\5b8b\4f53; overflow:visible }
+.btnB, .btnB_2 { overflow:hidden }
+.btnB { background-position:right 0 }
+.btnB:hover { background-position:right -35px; text-decoration:none }
+.btnB span, .btnB button, .btnB_2 span, .btnB_2 button { background-position:0 0; margin:0; padding:0 8px 0 12px; color:#fff; font-size:12px; font-weight:700; line-height:26px; _line-height:25px }
+.btnB:hover span, .btnB:hover button { background-position:0 -35px }
+.btnB_2 { background-position:right -70px }
+.btnB_2:hover { background-position:right -105px; text-decoration:none }
+.btnB_2 span, .btnB_2 button { background-position:0 -70px; color:#333 }
+.btnB_2:hover span, .btnB_2:hover button { background-position:0 -105px }
+/* btn3 */
+.btnC, .btnC span, .btnC button, .btnC_2, .btnC_2 span, .btnC_2 button, .btn_yel_b, .btn_yel_b span, .btn_yel_b button { background:url(../../img/pay/btn_c.png) no-repeat; height:24px; line-height:0; font-size:0; padding:0 4px 0 0; border:0; display:inline-block; vertical-align:middle; cursor:pointer; white-space:normal; outline:none; font-family:\5b8b\4f53; overflow:visible }
+.btnC, .btnC_2, .btn_yel_b { overflow:hidden }
+.btnC, .btn_yel_b { background-position:right 0 }
+.btnC:hover, .btn_yel_b:hover { background-position:right -35px; text-decoration:none }
+.btnC span, .btnC button, .btnC_2 span, .btnC_2 button, .btn_yel_b span, .btn_yel_b button { background-position:0 0; margin:0; padding:0 8px 0 12px; color:#fff; font-size:12px; font-weight:700; line-height:24px; _line-height:23px }
+.btnC:hover span, .btnC:hover button, .btn_yel_b:hover span, .btn_yel_b:hover button { background-position:0 -35px }
+.btnC_2 { background-position:right -70px }
+.btnC_2:hover { background-position:right -105px; text-decoration:none }
+.btnC_2 span, .btnC_2 button { background-position:0 -70px; color:#333 }
+.btnC_2:hover span, .btnC_2:hover button { background-position:0 -105px }
+.btn_red { height:30px; border:0; display:inline-block; padding:0 4px 0 0; vertical-align:middle }
+.btn_red span { height:30px; display:inline-block; margin:0; padding:0 12px 0 16px; line-height:21px; background-position:-648px -86px; overflow:hidden; cursor:pointer; line-height:30px; color:#fff; font-weight:700 }
+.btn_red { background-position:right -146px }
+.btn_red span { background-position:-648px -146px }
+.botton_red { padding-right:2px }
+.botton_red button { height:30px; margin:0; padding:0 12px 0 16px; _padding:0 9px 0 19px; white-space:normal; border:0; background-position:-648px -86px; cursor:pointer; outline:none; color:#fff; font-weight:700; overflow:visible; font-family:\5b8b\4f53; line-height:30px; _line-height:28px }
+.botton_red button { background-position:-648px -146px }
+.btn_green, .btn_green span, .btn_green button{background:url(../../img/pay/btn_green.png) no-repeat}
+.btn_green { background-position:right 0 }
+.btn_green:hover { background-position:right -35px; text-decoration:none }
+.btn_green span, .btn_green button{ background-position:0 0; margin:0; padding:0 12px 0 16px; color:#fff; font-size:14px; font-weight:700; line-height:30px; _line-height:29px }
+.btn_green:hover span, .btn_green:hover button { background-position:0 -35px} 
+.btn_grey, .btn_yel21 { height:21px; display:inline-block; padding-right:10px; background-position:right -65px; vertical-align:middle }
+.btn_grey span, .btn_yel21 span { height:21px; display:inline-block; padding-left:10px; line-height:21px; background-position:-648px -65px; overflow:hidden; cursor:pointer }
+.btn_yel21 { padding-right:10px; background:url(../../img/pay/btn_ico.png) right 0 }
+.btn_yel21 span { padding-left:10px; background:url(../../img/pay/btn_ico.png) left 0; color:#fff }
+.btn_grey:hover, .btn_red:hover, .btn_yel21:hover { text-decoration:none }
+/*登录控件*/
+.payEdit a, .payEdit a:hover, .new_payEdit a { width:150px; height:22px; line-height:22px; display:inline-block; border:1px solid #f90; background:#FFFFE8; color:#f30; text-align:center; text-decoration:none; zoom:1 }
+.new_payEdit a, .new_payEdit a:hover { background:#fffef5; font-weight:400; color:#666; text-decoration:none }
+.new_payEdit a span { text-decoration:underline; color:#f00 }
+/*header*/
+.header { width:960px; margin:0 auto; padding-top:2px; overflow:hidden }
+.logo { height:60px; float:left; display:inline;}
+.logo img { float:left }
+.ver_bus { width:100px; height:57px; background:url(../../img/pay/ver_txt.png) no-repeat; float:left; display:inline; text-indent:-99em; overflow:hidden }
+.ver_txt { margin-top:13px; float:left; font-size:20px; color:#333 }
+.header_bar { padding-top:5px; float:right; color:#333; white-space:nowrap }
+.header_bar a { color:#333 }
+.header_bar a:hover { color:#B10000 }
+.header_bar i { color:#B10000; font-weight:700 }
+.header .reg, .header .log, .mall, .help { margin:0 5px; display:inline-block; font-family:\5b8b\4f53; _font-family:Tahoma }
+.header .pad { margin:0 5px }
+/*nav */
+.nav, .nav li, .nav li a:hover, .nav li a:hover strong, .nav li a.cur, .nav li a.cur strong, .nav li i { background:url(../../img/pay/personal/p_nav.png) no-repeat }
+.nav { width:960px; height:68px; margin:0 auto 5px; padding-top:6px; position:relative; z-index:9; _overflow:hidden;}
+.nav li { height:31px; padding:0 8px; float:left; display:inline; background-position:0 -122px; line-height:24px; text-align:center; font-family:\5b8b\4f53 }
+.nav li a { height:33px; padding-right:15px; float:left; display:inline; color:#fff; position:relative }
+.nav li strong { height:33px; float:left; display:inline; padding-left:15px; cursor:pointer; font-size:14px; font-weight:400 }
+.nav li i { width:16px; height:9px; margin-left:-8px; position:absolute; top:24px; left:50%; background-position:right -126px; overflow:hidden; visibility:hidden }
+.nav li a.cur, .nav li a:hover { background-position:right -76px; color:#9C1B1E; text-decoration:none }
+.nav li a.cur i, .nav li a:hover i { visibility:visible }
+.nav li a.cur strong, .nav li a:hover strong { background-position:0 -76px }
+.nav li a.cur strong { font-weight:700 }
+.nav .short { background:none }
+.nav .short a strong { min-width:52px; _width:52px; white-space:nowrap }
+.nav .last { padding:0 5px 0 0; float:right; background:none; text-align:right; font-size:12px }
+.nav .last a { margin:0 10px; padding:0 0 0 15px; display:inline-block }
+.nav .last a:hover, .nav .last a.cur { background-position:-45px 11px; color:#fff }
+/*二级菜单*/
+.nav .subNav2 { _width:800px; position:absolute; top:41px; clear:both; white-space:nowrap;}
+.nav .subNav2 .subActive, .nav .subNav2 .subActive span, .nav .subNav2 a:hover, .nav .subNav2 a:hover span { background:url(../../img/pay/sub_nav.png) }
+.nav .subNav2 a { float:left }
+.nav .subNav2 a, .nav .subNav2 a span { white-space:nowrap; height:20px; line-height:20px; _line-height:22px; cursor:pointer; display:inline-block }
+.nav .subNav2 a { margin-right:3px; padding:0 0 0 2px; color:#333; overflow:hidden }
+.nav .subNav2 a span { min-width:50px; _width:50px; padding:0 10px 0 8px }
+.nav .subNav2 .subActive span { background-position:right 0; color:#b10000 }
+.nav .subNav2 a:hover { background-position:0 -30px; color:#b10000 }
+.nav .subNav2 a:hover span { background-position:right -30px }
+/*三级菜单下拉
+.nav .subHover{ height:auto;border:1px solid #fa0; background:#fff}
+.nav .subHover a{display:block; height:auto; margin-bottom:5px}
+.nav .subHover a:hover{  background:#fa0; color:#fff}
+*/
+/*企业版导航 ICO str*/
+.com_nav, .com_nav li, .com_nav li a.cur, .com_nav li a:hover, .com_nav li a.cur strong, .com_nav li a:hover strong, .com_nav li i { background:url(../../img/pay/b_nav.png) no-repeat }
+.com_nav li { background-position:0 -124px }
+.com_nav li i { background-position:right -126px }
+.com_nav li a.cur, .com_nav li a:hover { background-position:right -76px }
+.com_nav li a.cur strong, .com_nav li a:hover strong { background-position:0 -76px; color:#000 }
+.com_sub_nav { float:left }
+.com_sub_nav h3 a, .com_sub_nav h3 a.show { background:url(../../img/pay/bus_ico.png) 6px 6px no-repeat }
+.com_sub_nav h3 a.show { background-position:6px -23px }
+/*
+.ico_dot2{display:inline-block;zoom:1;height:18px; margin:0 5px 0 0;width:16px;background:url(../../img/pay/bus_ico.png) 0px -59px no-repeat; *background-position:0 -57px; vertical-align:middle}
+*/
+/*企业版导航 ICO end */
+.unLogin { height:29px; margin-bottom:10px; overflow:hidden }
+/*通用box*/
+.mod_box_a .bot, .mod_box_a .top { height:2px; padding-right:10px; background-position: right -213px; overflow:hidden }
+.mod_box_a .bot i, .mod_box_a .top i { height:2px; display:block; background-position:0 -213px; overflow:hidden }
+.mod_box_a { background-color:#fff }
+.mod_box_a .con_box { padding:0 10px 5px; border-left:1px solid #ddd; border-right:1px solid #ddd; background:#fff; _zoom:1 }
+.mod_box_a .pad20 { padding:5px 20px 10px }
+.mod_box_a .has_bg { background:url(../../img/pay/box_bg.png) repeat-x }
+.mod_box_a .has_bg .tit_box { height:22px }
+.mod_box_a .has_bg2 { background:url(../../img/pay/box_bg2.png) repeat-x }
+.mod_box_a .tit_box { margin-bottom:5px; padding:3px 0 6px; line-height:22px; position:relative; overflow:hidden; _zoom:1 }
+.mod_box_a .border_b { border-bottom:1px solid #ddd }
+.mod_box_a .title { float:left; color:#333; margin-right:5px }
+.mod_box_a .sub_nav3 { color:#666 }
+.mod_box_a .sub_nav3 a { color:#b10000 }
+.mod_box_a .sub_nav3 .cur { font-weight:700; font-size:14px; color:#000 }
+.mod_box_a .sub_nav3 span { margin:0 10px }
+.mod_box_a .more { float:right; line-height:24px }
+.mod_box_a .top { background-position: right -243px }
+.mod_box_a .top i { background-position:0 -243px }
+.no_pad .con_box { padding:0 }
+.no_pad .tit_box { margin:0; padding:5px 0 6px 7px }
+/* step */
+.step { margin:0; overflow:hidden; background:#f3f3f3; text-align:right }
+.step ol li { background:url(../../img/pay/step_bg.png) no-repeat }
+.step ol { overflow:hidden; zoom:1 }
+.step ol li { height:24px; display:inline-block; *display:inline;
+*zoom:1;
+padding:0 20px 0 40px; background-position:0 5px; line-height:24px; text-align:center; font-size:12px; color:#333 }
+.step-1 .li-1 { background:none; color:#f00 }
+.step-1 .li-2, .step-2 .li-3, .step-3 .li-4 { background-position:0 -25px }
+.step-1 .li-3, .step-2 .li-4 { background-position:0 5px }
+.step-2 .li-1, .step-3 .li-1, .step-4 .li-1 { background:none }
+.step-2 .li-1, .step-2 .li-2, .step-3 .li-1, .step-3 .li-2, .step-3 .li-3, .step-4 .li-1, .step-4 .li-2, .step-4 .li-3, .step-4 .li-4 { background-position:0 -51px; color:#bbb }
+.step-2 .li-2, .step-3 .li-3, .step-4 .li-4 { background-position:0 -51px; color:#f00 }
+.step ol li i { padding-right:5px; font-size:11px }
+.mod_box_a .step { margin:-5px -9px 0 }
+/*表格*/
+.table { width:100%; line-height:22px }
+.table td, .table th { padding:5px 10px; border:1px solid #ddd; font-weight:400 }
+.table td { vertical-align:top }
+/*mode_tab*/
+.mode_tab { overflow:hidden; zoom:1; border-bottom:2px solid #fbb75a }
+.mode_tab a { height:24px; margin:0 3px 0 0; padding-left:15px; display:inline; float:left; line-height:24px; background:url(../../img/pay/mode_tit.png) 0 -80px no-repeat; color:#333 }
+.mode_tab a span { display:block; padding-right:15px; background:url(../../img/pay/mode_tit.png) right -80px no-repeat }
+.mode_tab a:hover, .mode_tab a.cur { background:url(../../img/pay/mode_tit.png) 0 -104px no-repeat; text-decoration:none }
+.mode_tab a:hover span, .mode_tab a.cur span { background:url(../../img/pay/mode_tit.png) right -104px no-repeat; color:#f30 }
+/**/
+.mode_tit { height:29px; border-bottom:2px solid #069; overflow:hidden }
+.mode_tit h2, .mode_tit h2 a, .mode_tit .sel, .mode_tit .sel a { background:url(../../img/pay/mode_tit.png) repeat-x }
+.mode_tit h2 { height:29px; margin-right:5px; padding-left:2px; line-height:28px; float:left; display:inline; text-align:center; color:#333; font-weight:400 }
+.mode_tit h2 a { padding:0 25px 0 23px; display:block; background-position:right 0; color:#333; cursor:pointer }
+.mode_tit h2 a:hover { color:#f30 }
+.mode_tit .sel { background-position:0 -40px; color:#fff }
+.mode_tit .sel a { color:#fff; background-position:right -40px }
+.mode_tit .sel a:hover { color:#fff }
+.mode_tit .more { float:right; line-height:27px }
+/* 弹窗 */
+.tip_tit { position:relative; height:31px; padding-left:10px; line-height:31px; background-position:0 0 }
+.tip_tit h2 { display:block; height:31px; padding-right:10px; color:#fff; background-position:100% 0 }
+.tip_page { margin:0 auto }
+.tip_page .con_box { padding:50px 50px 20px 100px }
+.tip_page h3 { padding:0 0 2px 110px; font-size:14px; font-weight:bold; color:#000 }
+.popup_content h3 { padding-bottom:15px; font-weight:bold; color:#333 }
+.tip_page .pop_war { left:0; top:10px }
+.popup_box .pop_form { margin:30px 0 0 -70px }
+.popup_box .pop_form p { padding-bottom:8px; color:#333 }
+.popup_box .pop_form p input { margin:0 5px 0 0 }
+.popup_box .pop_form p.btn { padding:30px 0 0; text-align:center }
+.popup { margin:0 auto; text-align:center }
+.pop_war, .pop_s, .pop_fail { background:url(../../img/pay/sprite_ico_2.png) no-repeat; display:inline-block; width:60px; height:67px; text-indent:99em; overflow:hidden; position:absolute; top:0; left:0 }
+.pop_s { background-position:0 -67px }
+.pop_fail { background-position:0 -255px }
+.mod_hd, .popup .mod_hd h2 { background:url(../../img/pay/tips_tit.jpg) no-repeat }
+.popup .close, .popup .close:hover { background:url(../../img/pay/pay_ico.gif) no-repeat; background-position:-23px -116px; width:16px; height:16px; overflow:hidden; text-indent:-999em }
+.popup .close:hover { background-position:0 -116px }
+.popup .mod_hd { background-position:0 0; height:31px; line-height:31px; padding-left:10px; position:relative }
+.popup .mod_hd h2 { background-position:100% 0; display:block; height:31px; padding-right:10px; font-size:14px; color:#FFF }
+.popup .mod_bd { padding:20px 20px 40px; border:1px solid #D3D3D3; border-top:0 none }
+.popup_box { margin:20px auto 0; text-align:center }
+.popup_content { margin:0 20px; text-align:left; min-height:70px; _height:70px; position:relative; padding-left:70px; display:inline-block; *display:inline;
+zoom:1 }
+.t_center { padding-left:0 }
+.popup_box strong { display:inline-block; font-size:14px; color:#000; margin:8px 0 10px }
+.popup_box p { color:#B10000 }
+.popup_box a.sub_ser, .popup_box .pop_btn { background:url(../../img/pay/pop_spritex.png) no-repeat }
+.popup_box a.sub_ser { display:inline-block; width:139px; height:31px; line-height:31px; text-align:center; font-size:14px; font-weight:bold; color:#FFF; margin:20px 0 0 80px }
+.popup_box a.sub_ser:hover { text-decoration:none }
+.popup_box .pop_btn { background-position:0 -31px; display:inline-block; width:69px; height:25px; line-height:25px; text-align:center; font-weight:bold; color:#FFF; margin:30px 0 0 0px }
+.popup_box .pop_btn:hover { text-decoration:none }
+.pop_link { border-top:1px dashed #D3D3D3; margin:20px 0 0; padding:20px 0; text-align:center }
+.pop_link li { display:inline; font-weight:bold; color:#000 }
+.pop_link li a { font-weight:normal; color:#B10000 }
+.pop_link li span { font-weight:normal; color:#999; margin:0 6px 0 10px }
+.popup_box a.reg { display:inline-block; padding:0 0 0 15px; color:#B10000; position:relative; top:5px }
+.popup_box a.pop_login { margin-top:10px }
+.popup_box p.login_again { margin-top:10px; color:#656565 }
+.popup_box p.login_again a { color:#B10000 }
+.pop_acco .tip_tit h2 { color:#fff }
+.pop_account { width:650px; margin:0 auto; color:#000 }
+.pop_account { overflow:hidden; zoom:1 }
+.tipscont { margin:20px 40px; font-weight:bold; line-height:2; font-size:14px; background:url(../../img/pay/sprite_ico_2.png) no-repeat; padding:8px 0 2px 75px }
+.quick_btn { text-align:center }
+.quick_btn .btn_grey_b { margin:0 10px }
+.quick_btn .btn_grey_b span { color:#666 }
+.tipstext { margin-top:20px; color:#f00; text-align:center }
+.pop_payment { padding:10px 240px 20px; margin:15px auto 0; border-top:1px dashed #ccc; text-align:left }
+.pop_payment h4 { padding:15px 0; font-weight:bold }
+.trial_pay p { float:left; padding:8px 0 0 36px; background:url(../../img/pay/gold_icon.png) no-repeat }
+.trial_pay .btn_yel { float:right }
+/*bank logo*/
+.icbc, .merchants, .minsheng, .bea, .china_citic, .development, .guangfa, .construction, .spd, .post, .everbright, .agricultural, .china, .bohai, .communications, .industrial, .huaxia, .visa, .hzbank, .gongzhong, .bos, .unionpay, .hsb, .pingan, .pab, .bjb, .dzb, .dyb, .gzb, .hkb, .jcb, .nbb, .sdb, .wzb, .ydb, .zhb, .srcb, .mock, .gyccb { background:url(../../img/pay/bank_logo.png) no-repeat; display:inline-block; width:128px; height:28px; font-size:0; line-height:0; vertical-align:middle; overflow:hidden; zoom:1; border:1px solid #d7d7d7; cursor:pointer; position:relative }
+.bank_cur { border:1px solid #f60 }
+.icbc { background-position:0 0 }/*工商*/
+.merchants { background-position:0 -40px }/*招商*/
+.minsheng { background-position:0 -80px }/*民生*/
+.bea { background-position:0 -120px }/*东亚*/
+.china_citic { background-position:0 -160px }/*中信*/
+.development { background-position:0 -200px }/*深圳发展*/
+.guangfa { background-position:0 -240px }/*广东发展*/
+.construction { background-position:0 -280px }/*建设*/
+.spd { background-position:0 -320px }/*浦东发展*/
+.nbb { background-position:0 -360px }/*宁波*/
+.everbright { background-position:0 -400px }/*光大*/
+.agricultural { background-position:0 -440px }/*农业*/
+.china { background-position:0 -480px }/*中国*/
+.bjb { background-position:0 -520px }/*北京*/
+.communications { background-position:0 -560px }/*交通*/
+.industrial { background-position:0 -600px }/*兴业*/
+.huaxia { background-position:0 -640px }/*华夏*/
+.visa { background-position:0 -920px }/*visa*/
+.hzbank{ background-position:0 -1001px }/*杭州*/
+.gongzhong { background-position:0 -760px }/*公众城市一卡通*/
+.bos { background-position:0 -961px }/*上海*/
+.hsb { background-position:0 -801px }/*徽商*/
+.pingan { background-position:0 -921px }/*遨游支付*/
+.unionpay { background-position:0 -680px }/*银联*/
+.bohai { background-position:0 -841px }/*渤海*/
+.dzb { background-position:0 -1000px }/*德州*/
+.gzb { background-position:0 -1080px }/*广州*/
+.hkb { background-position:0 -1120px }/*汉口*/
+.jcb { background-position:0 -1160px }/*晋城*/
+.post { background-position:0 -881px }/*邮政*/
+.sdb { background-position:0 -1240px }/*顺德农商*/
+.wzb { background-position:0 -1280px }/*温州*/
+.ydb { background-position:0 -1321px }/*尧都*/
+.zhb { background-position:0 -1361px }/*珠海市农村信用*/
+.srcb { background-position:0 -1401px }/*上海农村商业银行*/
+.mock { background-position:0 -721px }/*mock*/
+.gyccb { background-position:0 -761px }/*贵阳*/
+/*二列结构*/
+.form_list { line-height:22px;/*margin:0 0 5px; padding:10px; background:#fafbfc; border: 5px solid #ddd;*/ }
+.form_list li {/* min-height:20px; _height:20px; 收银台部分IE有问题*/ margin-bottom:15px; padding-left:130px;*zoom:1}
+.form_list li .pop_check { margin-left:-5px }
+.form_list .form_side, .form_list .form_side2 { width:130px; margin-left:-130px; display:inline; float:left; text-align:right; color:#666 }
+.form_list .form_side2 { padding-top:2px }
+.form_side span, .form_side2 span { color:#f00; font-family:\5B8B\4F53 }
+/*结果提示*/
+.result_tips { margin:20px auto; padding-bottom:15px; text-align:left; display:inline-block; *display:inline;
+*zoom:1
+}
+.result_tips .set_height { margin-right:50px; float:left; padding:25px 0 25px 100px; position:relative; *display:inline;
+*zoom:1
+}
+.result_tips .words { padding:0 0 5px }
+.pop_war, .pop_s, .pop_fail { top:25px; left:20px }
+.result_tips .link { padding-top:10px }
+.result_tips .link a { color:#09f; margin:0 6px }
+.w500 { width:500px }
+/**/
+.war_tips{padding:10px 10px 10px 50px; border:1px solid #ddd; background:#ffffbf; overflow:hidden;zoom:1; position:relative; display:inline-block; *display:inline; *zoom:1}
+.war_tips .ico32{ position:absolute; top:4px; left:5px;}
+.war_tips_list{ margin-top:-8px;}
+/*生活助手*/
+.life_ico { width:48px; height:48px; display:inline-block; background:url(../../img/pay/ico/life_ico.png) no-repeat; cursor:pointer }
+.ico_out { }/*付款*/
+.ico_in { background-position:-58px 0 }/*收款*/
+.ico_air { background-position:-116px 0 }/*机票*/
+.ico_lottery { background-position:-174px 0 }/*彩票*/
+.ico_card { background-position:-232px 0 }/*卡消费*/
+.ico_creditCard { background-position:-290px 0 }/*卡消费*/
+.ico_eCard { background-position:-348px 0 }
+/*密码等级*/
+.pwd_level_1, .pwd_level_2, .pwd_level_3 { width:60px; height:22px; display:inline-block; background:url(../../img/pay/pwd-level.png) no-repeat; vertical-align:middle }
+.pwd_level_2 { background-position:0 -24px }
+.pwd_level_3 { background-position:0 -48px }
+/**/
+.ico_txtBox { padding:3px 0 10px 20px; font-family:\5b8b\4f53; clear:both; overflow:hidden; _zoom:1 }
+.ico_txtBox .warn_ico { margin:4px 0 0 -20px; float:left }
+.pad_center, .mod_form { margin:10px 0 5px; background:#fafbfc; border:5px solid #eee }
+.pad_center { padding:20px 20px 20px 100px }
+/*时间控件*/
+.Wdate { border:#ccc 1px solid; background:#fff url(../../img/pay/datePicker.gif) no-repeat right }
+.WdateFmtErr { font-weight:700; color:red }
+/*page*/
+.page { padding:20px 0 15px; text-align:right }
+.page a, .page span { height:16px; padding:1px 6px; margin-left:5px; line-height:18px; border:1px solid #bbb; color:#878787; display:inline-block; font-family:\5b8b\4f53; overflow:hidden }
+.page .cur, .page a:hover { border:1px solid #f30; color:#fff; text-decoration:none; background-position:0 -18px }
+.page .off, .page .off:hover { color:#ccc }
+/*footer*/
+.footer { padding:17px 0 60px; width:100%; clear:both }
+.footer .foot_nav, .footer .contact_info, .footer .copyright { margin:0 auto; text-align:center; color:#999 }
+.footer .foot_nav a { padding:0 10px }
+.footer .contact_info span { margin:0 5px }
+.icp,.licence{ text-align:center }
+.icp a,.licence a{ color:#999 }
+/*color*/
+.red, .red a, a.red, .reds, .reds a, a.reds { color:#f30 }
+.red2, .red2 a, a.red2 { color:red }
+.c_f00, .c_f00 a, a.c_f00 { color:#f00 }
+.c_f90 { color:#f90 }
+.c_f60 { color:#f60 }
+.c_f00 { color:#f00 }
+.c_000 { color:#000 }
+.c_666 { color:#666 }
+.c_999 { color:#999 }
+.c_06f { color:#06f }
+.green { color:#61B227 }
+.blue, .blues { color:#09f }
+.reds, .blues { text-decoration:underline }
+.color { color:#09f }
+   

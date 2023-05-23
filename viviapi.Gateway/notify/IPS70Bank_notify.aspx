@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="IPS70Bank_notify.aspx.cs" Inherits="viviapi.Gateway.notify.IPS70Bank_notify" %>

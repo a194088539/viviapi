@@ -1,0 +1,24 @@
+	@charset "utf-8";
+	/* CSS Document */
+	.Top_Czn .Operation{ width:114px; height:25px; display:inline-block;}
+	
+	.fc5{ color:#f60;}
+		
+	.Top_Czn.Icon .Sousuo{width:114px; height:25px; float:left; margin-left:15px;}
+	
+	.Top_Czn .V_btn10{ background:url(../../images/User/Icon/18.png) 0 2px no-repeat; padding-left:20px; font-size:14px; color:#007AB6; float:right;}
+	.Top_Czn .V_btn10:hover{ color:#F00;}
+	
+	.Top_Czn.Icon{ padding-bottom:5px;}
+	.Top_Czn.Icon .select dt{ border:1px solid #FFF; font-size:13px; background:url(../../images/Icon/Arrow_2.png) no-repeat no-repeat right; min-width:60px;}
+	.Top_Czn.Icon .select dd ul{ min-width:60px;}
+	.Top_Czn.Icon .select:hover dt{border:1px solid #d2ccc4;}
+	.Top_Czn.Icon .select:hover dt:hover,.select dt.cur{border:1px solid #409DFE;box-shadow:0 0 3px #409DFE;}
+	.Top_Czn.Icon .select.select dt.cur{background:url(../../images/Icon/Arrow_1.png) no-repeat right;}
+
+	.Admin_sxk1{ display:none;}
+	.Admin_sxk2{ min-width:107px; background:#FFF;border:1px solid #908B88;overflow:hidden;padding:1px; border-radius:3px;}
+	.Admin_sxk2 a{color:#585657;text-decoration:none;}
+	.Admin_sxk2 .dl{ display:block;}
+	.Admin_sxk2 .dl .dd{ display:block; height:20px; line-height:20px; padding:5px 15px 5px 5px; text-indent:10px;}
+	.Admin_sxk2 .dl .dd:hover{ background:#EFEFEF; color:#585657;}

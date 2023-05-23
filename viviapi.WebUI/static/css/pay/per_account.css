@@ -1,0 +1,86 @@
+﻿@charset "utf-8";
+.abs_more { position:absolute; top:8px; right:10px}
+.nowrap { white-space:nowrap}
+.pad_center{ padding:20px 0 20px 100px }
+/*桌面首页 str*/
+.o_hidden { overflow:hidden;zoom:1}
+.welcome { position:relative; padding:5px 0 8px 10px; line-height:22px}
+.last_login_time { color:#999; position:absolute; top:6px; right:10px}
+.my_id { position:relative; display:inline-block; *display:inline;*zoom:1}
+.my_id strong { margin-right:5px; font-size:16px; color:#000}
+.my_id a:hover, .my_id a:hover strong { text-decoration:none; color:#000}
+.my_id em { color:#333}
+.account_info{ margin-top:5px;}
+.account_info .balance {_height:62px; margin-top:5px; padding:11px 0 11px 20px; overflow:hidden; float:left; clear:both; background:#f0f3f6;}
+.account_info .m1 { width:240px; margin-right:10px; float:left}
+.account_info .type { font-weight:700; color:#333}
+.account_info .list { padding:5px 0}
+.account_info .list strong { font-size:14px; color:#b10000}
+.recharge { width:155px; margin:6px 20px 0 0; float:right; display:inline; text-align:right}
+.more_info { float:left}
+.more_info p{padding:15px 0 5px;}
+.more_info .side{ padding:0 20px; display:inline-block}
+.account_info .approve, .account_info .approve_gray, .account_info .pwd_card, .account_info .pwd_card_gray, .account_info .certificate, .account_info .certificate_gray,.account_info .certificate_err,.account_info .i_mobile,.account_info .i_mobile_gray{ width:auto; margin-right:15px;padding-left:20px}
+.mod_safe a{ padding-right:15px;color:#333;}
+.greetings{ padding:5px 0 5px 29px; border-top:1px solid #ccc; background:#f0f0f0; color:#333;}
+.greetings .side{ padding:0 18px 0 20px;*padding:0 25px 0 20px; letter-spacing:6px;color:#666;}
+.trade_info { margin-top:10px; background:url(../../img/pay/box_bg.png) 0 0 repeat-x}
+.trade_tit { border:1px solid #ddd; padding:3px 10px 4px; border-bottom:none; position:relative; zoom:1}
+.trade_tit h3 { display:inline-block; *display:inline;*zoom::1;margin-right:20px; font-size:14px; color:#000}
+.trade_tit a { margin:0 5px}
+.trade_tit .abs { top:6px; right:10px}
+.trade_info table { width:100%}
+.trade_info table, .trade_info table td, .trade_info table th { border:1px solid #ddd}
+.trade_info th,.trade_info th.type,.trade_info th.cost,.trade_info th.num ,.trade_info th.state,.trade_info th.operate{background:#FFFFEF; color:#333;}
+.trade_info table td, .trade_info table th { padding:5px}
+.trade_info .null { padding-left:10px; text-align:left}
+.trade_info .even td { background:#FFFFEF}
+
+.trade_info table td, .trade_info table th { padding:5px; white-space:nowrap }
+.trade_info .date { width:80px; white-space:nowrap;text-align:center }
+.trade_info .type { width:220px; border-right:none; color:#06C; white-space:normal }
+.trade_info .cost, .trade_info .income, .trade_info .num { border-right:none; border-left:none; text-align:right; padding:5px 0 5px 5px }
+.trade_info .cost { color:#f30 }
+.trade_info .income { color:#61B227 }
+.trade_info .num { color:#000; padding:5px 5px 5px 0 }
+.trade_info .state { width:90px; text-align:center }
+.trade_info .operate { width:100px; text-align:center;color:#666}
+.trade_info .operate a { margin:0 5px; color:#07f}
+.trade_info .operate a:hover{ color:#b10000;}
+
+.bus_user_box .tit_box { margin-bottom:0}
+.com_safety_info { padding:10px 0 20px; line-height:2}
+.com_safety_info ul { width:330px; padding-right:50px; border-right:1px dotted #ddd; float:left}
+.com_safety_info li { margin-bottom:2px; padding-left:90px; position:relative; zoom:1}
+.com_safety_info .side, .about_safety .side { width:80px; margin-left:-90px; float:left; display:inline; text-align:right}
+.com_safety_info .more { position:absolute; top:0; right:-30px}
+.about_safety { padding-left:130px; float:left}
+.about_safety .side { width:130px; margin-left:-130px}
+.about_safety p { margin-bottom:2px}
+.com_site_msg .tab_content { width:708px; min-height:0; _height:auto}
+.common_use { margin:20px 0}
+.common_use li { width:345px; margin:0 5px -1px 30px; display:inline; float:left}
+.column_list { color:#000}
+.column_list .side { color:#666}
+.activity_box{ border:1px solid #ccc; margin-top:10px; padding:10px; overflow:hidden;_zoom:1}
+.activity_img{ width:450px; float:left;}
+.activity_img img{ width:200px; height:100px; float:left; margin:5px; display:inline; border:1px solid #999; padding:1px;}
+.activity_art{ float:left;}
+.activity_art li{ padding-left:15px; background:url(../../img/pay/sprite_ico.png) -45px -257px no-repeat; line-height:22px;}
+.list_square li { line-height:24px}
+.helper_list{ overflow:hidden; zoom:1; line-height:16px;}
+.helper_list li{ width:58px; float:left; margin:10px 5px 5px 6px; display:inline; text-align:center;}
+.helper_list li a{height:17px; padding-top:50px;}
+/*企业桌面首页 end*/
+/*信息管理 str*/
+.box_td{ width:475px; float:left; margin-top:10px; display:inline;}
+.box_td .form_list li{ margin:4px 0; padding-left:90px;color:#000}
+.box_td .form_list .form_side{width:90px; margin-left:-90px; color:#666}
+.box_td .table td{ padding:0 5px;}
+.set_h2{ height:185px;}
+.cut{ width:278px; overflow:hidden; word-break:break-all;}
+.account_bank { margin:-5px 0 10px; float:left; width:100%; padding-bottom:15px; clear:both;}
+.account_bank th{ font-weight:700; background:#f9f9f9}
+.account_bank a { margin:0 5px; color:#039}
+.account_bank .red { margin-left:15px; color:#b10000}
+/*信息管理 end*/

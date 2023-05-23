@@ -1,0 +1,364 @@
+﻿a
+{
+	color: #08c;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #005580;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: Black;
+}
+h1
+{
+	font-size: 26px;
+	line-height: 34px;
+}
+h2
+{
+	font-size: 20px;
+	line-height: 28px;
+}
+h3
+{
+	font-size: 16px;
+	line-height: 22px;
+}
+h4
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+h5
+{
+	font-size: 12px;
+	line-height: 18px;
+}
+h6
+{
+	font-size: 12px;
+	line-height: 16px;
+}
+
+
+/* 去掉各Table  cell 的边距并让其边重合 */
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* IE bug fixed: th 不继承 text-align*/
+th
+{
+	text-align: inherit;
+}
+
+/*
+table和分页
+以及datatable插件
+*/
+table
+{
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: transparent;
+}
+.table
+{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.table th, .table td
+{
+	padding: 8px;
+	line-height: 18px;
+	vertical-align: middle;
+	border-top: 1px solid #ddd;
+}
+.table th
+{
+	font-weight: bold;
+	vertical-align: bottom;
+}
+.table colgroup + thead tr:first-child th, .table colgroup + thead tr:first-child td, .table thead:first-child tr:first-child th, .table thead:first-child tr:first-child td
+{
+	border-top: 0;
+}
+.table tbody + tbody
+{
+	border-top: 2px solid #ddd;
+}
+.table-condensed th, .table-condensed td
+{
+	padding: 4px 5px;
+}
+.table-bordered
+{
+	border: 1px solid #ddd;
+	border-left: 0;
+	border-collapse: separate; *border-collapse:collapsed;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+border-radius:2px;
+}
+.table-bordered th, .table-bordered td
+{
+	border-left: 1px solid #ddd;
+}
+.table-bordered thead:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td
+{
+	border-top: 0;
+}
+.table-bordered thead:first-child tr:first-child th:first-child, .table-bordered tbody:first-child tr:first-child td:first-child
+{
+	-webkit-border-radius: 2px 0 0 0;
+	-moz-border-radius: 2px 0 0 0;
+	border-radius: 2px 0 0 0;
+}
+.table-bordered thead:first-child tr:first-child th:last-child, .table-bordered tbody:first-child tr:first-child td:last-child
+{
+	-webkit-border-radius: 0 2px 0 0;
+	-moz-border-radius: 0 2px 0 0;
+	border-radius: 0 2px 0 0;
+}
+.table-bordered thead:last-child tr:last-child th:first-child, .table-bordered tbody:last-child tr:last-child td:first-child
+{
+	-webkit-border-radius: 0 0 0 2px;
+	-moz-border-radius: 0 0 0 2px;
+	border-radius: 0 0 0 2px;
+}
+.table-bordered thead:last-child tr:last-child th:last-child, .table-bordered tbody:last-child tr:last-child td:last-child
+{
+	-webkit-border-radius: 0 0 2px 0;
+	-moz-border-radius: 0 0 2px 0;
+	border-radius: 0 0 2px 0;
+}
+.table-striped
+{
+	background-color: #fff;
+}
+.table-striped thead th
+{
+	background-color: #e2e8f2;
+}
+.table-striped tbody tr:nth-child(even) td, .table-striped tbody tr:nth-child(even) th
+{
+	background-color: #f0f5fb;
+}
+.table tbody tr:hover td, .table tbody tr:hover th
+{
+	background-color: #e2e4ff;
+}
+.input-table th, .input-table td
+{
+	line-height: 28px;
+	padding: 3px 8px;
+}
+.centered
+{
+	text-align: center;
+}
+.centered th
+{
+	text-align: center;
+}
+.t-left
+{
+	text-align: left;
+}
+.non-centered
+{
+	text-align: left !important;
+}
+.table-toolbar
+{ *zoom:1;
+*margin-bottom:10px;
+}
+.table-toolbar:before, .table-toolbar:after
+{
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.table-toolbar:after
+{
+	clear: both;
+}
+.table-toolbar .left
+{
+	float: left;
+	text-align: left;
+}
+.table-toolbar .right
+{
+	float: right;
+}
+.table-toolbar .left, .table-toolbar .right
+{ *display:inline;
+/* IE7 inline-block hack */
+
+*zoom:1;
+margin-right:.1px\9;
+}
+.table-toolbar p.left
+{ *padding-left:5px;
+}
+.table-toolbar p.right
+{ *padding-right:5px;
+}
+/*
+嵌入式table
+*/
+.table .embbled
+{
+	padding: 0;
+	margin-bottom: -1px;
+}
+.table .embbled .table
+{
+	margin: 0;
+	position: relative;
+	bottom: -1px;
+}
+.table .embbled .table td
+{
+	border-left: 0;
+	border-bottom: 1px solid #DDD;
+	background-color: #fff;
+}
+.table .embbled-line td
+{
+	padding: 2px;
+	background-color: #fff !important;
+}
+.table .embbled-line td table
+{
+	margin: 0;
+}
+.table .embbled-line td table th
+{
+	background-color: #F2F2F2;
+}
+.table .embbled-line td table td
+{
+	background-color: #fff;
+	padding: 8px;
+}
+.act-link
+{
+	color: #333;
+	margin-right: 8px;
+}
+.dataTable-wrapper
+{
+	position: relative; *zoom:1;
+}
+table.dataTable thead th
+{
+	cursor: pointer; *cursor:hand;
+}
+table.dataTable thead th
+{
+	vertical-align: middle;
+}
+table.dataTable tfoot th
+{
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+}
+table.dataTable td.center, table.dataTable td.dataTables_empty
+{
+	text-align: center;
+}
+table.dataTable tr.odd
+{
+	background-color: #ffffff;
+}
+table.dataTable tr.even
+{
+	background-color: #f0f5fb;
+}
+table.dataTable tr.odd td.sorting_1
+{
+	background-color: #d3d6ff;
+}
+table.dataTable tr.odd td.sorting_2
+{
+	background-color: #dadcff;
+}
+table.dataTable tr.odd td.sorting_3
+{
+	background-color: #e0e2ff;
+}
+table.dataTable tr.even td.sorting_1
+{
+	background-color: #eaebff;
+}
+table.dataTable tr.even td.sorting_2
+{
+	background-color: #f2f3ff;
+}
+table.dataTable tr.even td.sorting_3
+{
+	background-color: #f9f9ff;
+}
+/*************************/
+.dataTables_paginate
+{
+	display: inline-block;
+	vertical-align: top; *display:inline;*zoom:1;letter-spacing:-4px}
+.dataTables_paginate a
+{
+	display: inline-block;
+	letter-spacing: normal;
+	padding: 0 14px;
+	line-height: 34px;
+	text-decoration: none;
+	border: 1px solid #DDD;
+	border-left-width: 0;
+}
+.dataTables_paginate a:hover
+{
+	background-color: #e2e4ff;
+}
+.paginate_button
+{
+	cursor: pointer;
+}
+.paginate_active
+{
+	background-color: #f0f5fb;
+}
+.dataTables_paginate span
+{ *vertical-align:top}
+.dataTables_paginate .first
+{
+	border-left-width: 1px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+.dataTables_paginate .last
+{
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+.pagination
+{
+	height: 36px;
+	margin-top: 18px;
+	text-align: center; *zoom:1}

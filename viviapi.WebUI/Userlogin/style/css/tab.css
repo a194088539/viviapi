@@ -1,0 +1,20 @@
+.tab td { 
+  font-size: 12px;
+  color: #000000;
+  }
+.sec1 {
+	background-image:url(../images/ov.jpg);
+	background-repeat:repeat-x;
+	cursor: hand;
+	color: #000000;
+	font-weight: bold;
+  }
+.sec2 {
+	cursor: hand;
+	color: #000000;
+	font-weight: bold;
+  }
+.main_tab {
+	background-color: #FAFAFA;
+	color: #000000;
+  }

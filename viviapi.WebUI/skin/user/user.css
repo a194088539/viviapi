@@ -1,0 +1,217 @@
+﻿*{padding:0; margin:0}
+a{color:#0a8dca}
+a:hover{color:#f30}
+li{list-style:none;}
+
+
+
+img{border:none}
+img, label, input, select, textarea{vertical-align:middle}
+input, button, textarea, select{font-size:12px; font-family:Arial}
+
+
+body{font:12px/1.5em "microsoft yahei"; color:#333;}
+
+
+div.left{float:left}
+div.right{float:right}
+
+
+
+input.button{
+	height:28px;
+	cursor:pointer;
+	border-top:1px solid #ddd;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	border-left:1px solid #ddd;
+	background-color:#e4e4e4;
+	background-repeat:no-repeat;
+	background-position:8px center;
+	padding:0 8px;
+	overflow:visible
+}
+
+
+
+.font13{
+	font-size: 13px;
+}
+
+.font14{
+	font-size: 14px;
+}
+
+
+
+
+
+input.button{height:28px;cursor:pointer;border-top:1px solid #ddd;border-right:1px solid #666;border-bottom:1px solid #666;border-left:1px solid #ddd;background-color:#e4e4e4; background-repeat:no-repeat; background-position:8px center;padding:0 8px;overflow:visible}
+select.select{padding:4px}
+
+
+
+input, select, textarea{font-size:12px; color:#333}
+
+
+/*#tabs{height:40px;border-bottom:3px solid #20a2de;margin:20px auto 0 auto;width:754px;font-weight:normal}
+#tabs ul{float:left; margin-top:5px}
+#tabs ul li{float:left; padding:0 5px}
+#tabs ul li a,
+#tabs ul li a span{display:block;cursor:pointer;height:35px;line-height:35px;float:left;background:#f0f0f0;font-size:14px}
+
+#tabs ul li a{padding-left:25px; }
+#tabs ul li a span{padding-right:25px;background-position:right top}
+
+
+#tabs ul li a:hover{}
+
+#tabs ul li a.selected{color:#fff; background:#20a2de}
+#tabs ul li a.selected span{color:#fff; font-weight:bold; background:#20a2de}
+
+
+
+#tabs div{float:right}*/
+
+
+input, textarea{font-size:12px}
+
+
+input.input{border:1px solid #bbb; background:#fefefe url(images/input_bg.gif) no-repeat; height:30px; line-height:30px; padding:0 5px}
+
+
+
+textarea.textarea{border:1px solid #bbb; background:#fefefe url(images/input_bg.gif) no-repeat; padding:5px}
+
+
+
+
+input.smallbutton{
+	height: 24px;
+	padding: 0 10px;
+	background: #19b3db;
+	color: #fff;
+	border-radius:2px;
+	border: none;
+	cursor:pointer;
+	font-size: 12px;
+}
+
+
+
+
+
+.mainTable{width:100%}
+.mainTable thead tr.title{background:#20a2de}
+.mainTable thead tr.title th{font-weight:bold; font-size:14px; font-weight:normal; font-family:"微软雅黑"; color:#fff; padding:6px}
+.mainTable thead tr.title th a{color:#fff}
+
+
+.mainTable thead tr.title2{background:#fff url(images/title_line.gif) repeat-x left bottom; border-bottom:3px solid #20a2de}
+.mainTable thead tr.title2 th{text-align:left; height:40px; font-size:16px; color:#0682bb}
+
+
+.mainListTable{}
+.mainListTable thead tr{background:url(images/list_thead_bg.gif) repeat-x}
+.mainListTable thead tr th{font-weight:normal; padding:8px 14px; font-size:14px}
+
+
+.mainListTable tbody tr{background:#fff url(images/table_list_tr_line.gif) repeat-x left bottom}
+.mainListTable tbody tr td{padding:14px; color:#444}
+.mainListTable tbody tr.hover{background-color:#fff9e9}
+
+
+
+.mainFormTable{background:#ccc}
+.mainFormTable thead tr{background:#e4eef9}
+.mainFormTable thead tr th{font-weight:normal; padding:6px 10px;font-size:14px;}
+
+
+
+
+.mainFormTable tbody tr th,
+.mainFormTable tbody tr td{background-repeat:repeat-x; background-position:left bottom; background-color:#fff;}
+
+
+.mainFormTable tbody tr th{background-image:url(images/form_th_line.gif);font-size:13px}
+.mainFormTable tbody tr td{background-image:url(images/form_td_line.gif); color:#444}
+
+.mainFormTable tbody tr th{text-align:right;font-weight:normal; background-color:#e2f1f8; padding:12px 12px 12px 0}
+.mainFormTable tbody tr th em{color:#f00; padding-right:10px; font-style:normal; font-family:Verdana; font-size:10px}
+.mainFormTable tbody tr td{padding:12px 0 12px 12px}
+.mainFormTable tbody tr td label{padding-right:5px}
+.mainFormTable tbody tr td div.element{float:left;}
+.mainFormTable tbody tr td div.tip{float:left; padding-left:20px}
+
+.mainFormTable tbody tr.color{background:#f3f6fa}
+
+
+.list_color tbody tr.color{background-color:#fcfcfc}
+
+
+
+
+.pageList{font-family:Arial, Helvetica, sans-serif;width:99%;padding:25px 0; display:inline-block;color:#989898;}
+.pageList td{padding:0 2px}
+.pageList td a{background:#fff; border:1px solid #0095bb; color:#333}
+.pageList td a:hover{background:#d7e9ee}
+
+
+.pageList .page_text a{display:block;height:28px;line-height:28px;padding:0 8px;}
+
+
+.pageList .page_no a{display:block; float:left; padding:0 8px; height:28px; line-height:28px; margin:0 2px; background:#fff}
+.pageList .page_no a.page_current{ background:#00bdee; color:#fff; font-weight:bold; border:1px solid #0095bb}
+
+
+
+
+
+
+.submit{
+	cursor:pointer
+}
+
+
+
+
+
+
+
+
+
+
+.frameTable tr th{
+	padding:10px 15px;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: right;
+	color: #888
+}
+
+
+.frameTable tr th em{
+	color: #f00;
+	padding-right: 6px;
+	font-style: normal;
+}
+
+
+.frameTable tr td{
+	padding:10px;
+}
+
+
+
+
+
+.input-group{ width:100px; height:26px;  border-radius:3px; border:1px solid #BBBBBB; overflow:hidden;}
+.form-control{ width:55px; height:16px; line-height:16px; text-align:center; outline: none; border:0px; padding:5px; float:left;}
+
+.input-group-addon{ width:34px; height:26px; float:right; background:#EEEEEE; border-left:1px solid #BBBBBB;}
+
+.spin-up{ display:block; width:30px; height:15px; background:url(images/0.png) no-repeat 10px 5px; overflow:hidden; margin-top:0px; margin-left:2px;}
+.spin-up:hover{ background-position:-18px 5px;}
+
+.spin-down{ display:block; width:30px; height:15px; background:url(images/0.png) no-repeat 10px -9px; overflow:hidden; margin-top:0px; margin-left:2px;}
+.spin-down:hover{ background-position:-18px -9px;}

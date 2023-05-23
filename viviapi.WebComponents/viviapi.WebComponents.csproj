@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E1A11E67-5FA6-4907-8AFE-EA4FAD4748FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>viviapi.WebComponents</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>viviapi.WebComponents</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json.Net20, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="EmailHelper.cs" />
+    <Compile Include="FileUploadHelper.cs" />
+    <Compile Include="RandomController.cs" />
+    <Compile Include="ScheduledTask\DailyTask.cs" />
+    <Compile Include="ScheduledTask\IntervalTask.cs" />
+    <Compile Include="ScheduledTask\ScheduledTasks.cs" />
+    <Compile Include="Template\Helper.cs" />
+    <Compile Include="UrlManager\Filter.cs" />
+    <Compile Include="UrlManager\HandlerBase.cs" />
+    <Compile Include="UrlManager\PageHandler.cs" />
+    <Compile Include="UrlManager\StaticFileHandler.cs" />
+    <Compile Include="UrlManager\UrlManagerFactory.cs" />
+    <Compile Include="Web\AgentPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\BusinessPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ManagePageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\PageBaseControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\UserPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\viviapi.BLL\viviapi.BLL.csproj">
+      <Project>{3A126A0F-84D6-4328-8482-B7C24B6BA2B3}</Project>
+      <Name>viviapi.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.Cache\viviapi.Cache.csproj">
+      <Project>{AC3F2790-6608-423D-A7C9-A67E4BE7CE18}</Project>
+      <Name>viviapi.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.Model\viviapi.Model.csproj">
+      <Project>{E94B9E47-2A44-42C3-BFA5-072BF0B3F8CF}</Project>
+      <Name>viviapi.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.SysConfig\viviapi.SysConfig.csproj">
+      <Project>{655047D7-967B-41AE-BA41-1E41EC237A15}</Project>
+      <Name>viviapi.SysConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviLib\viviLib.csproj">
+      <Project>{1FC5360E-B2DA-4521-A123-8C176B8DDAD5}</Project>
+      <Name>viviLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

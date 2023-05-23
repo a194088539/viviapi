@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <!--Project was exported from assembly: C:\Documents and Settings\Administrator\桌面\bin\viviapi.Model.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E94B9E47-2A44-42C3-BFA5-072BF0B3F8CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>viviapi.Model</AssemblyName>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <RootNamespace>viviapi.Model</RootNamespace>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="other\phoneValid.cs" />
+    <Compile Include="SupplierInfo.cs" />
+    <Compile Include="SupplierPayRateInfo.cs" />
+    <Compile Include="Withdraw\distribution.cs" />
+    <Compile Include="Withdraw\SettledInfo.cs" />
+    <Compile Include="ads\AdsPicInfo.cs" />
+    <Compile Include="template\template.cs" />
+    <Compile Include="sys\Manage.cs" />
+    <Compile Include="other\PhoneValidLog.cs" />
+    <Compile Include="news\IMSG.cs" />
+    <Compile Include="sys\WebSiteInfo.cs" />
+    <Compile Include="template\SinglePage.cs" />
+    <Compile Include="Payment\PTypeConf.cs" />
+    <Compile Include="template\TempLabel.cs" />
+    <Compile Include="ads\FillMoneyInfo.cs" />
+    <Compile Include="sys\WebInfo.cs" />
+    <Compile Include="feedback\feedbackInfo.cs" />
+    <Compile Include="ads\AdsInfo.cs" />
+    <Compile Include="Payment\PayListInfo.cs" />
+    <Compile Include="sys\JuBaoInfo.cs" />
+    <Compile Include="news\NewsInfo.cs" />
+    <Compile Include="sys\CallBackInfo.cs" />
+    <Compile Include="User\PromotionUserInfo.cs" />
+    <Compile Include="User\UsersUpdateLog.cs" />
+    <Compile Include="User\LoginLogModel.cs" />
+    <Compile Include="User\userHostInfo.cs" />
+    <Compile Include="User\RegUserInfo.cs" />
+    <Compile Include="User\FindPwd.cs" />
+    <Compile Include="User\UserPayBankAppInfo.cs" />
+    <Compile Include="User\UserInfo.cs" />
+    <Compile Include="User\usersIdImageInfo.cs" />
+    <Compile Include="User\EmailCheckInfo.cs" />
+    <Compile Include="User\UserAccessTimeInfo.cs" />
+    <Compile Include="User\UsersPayBank.cs" />
+    <Compile Include="User\QuestionInfo.cs" />
+    <Compile Include="User\UsersAmtInfo.cs" />
+    <Compile Include="User\usersetting.cs" />
+    <Compile Include="Withdraw\settledAgentSummary.cs" />
+    <Compile Include="Withdraw\settledAgent.cs" />
+    <Compile Include="Withdraw\settledAgentNotify.cs" />
+    <Compile Include="Withdraw\channelwithdraw.cs" />
+    <Compile Include="sys\debuginfo.cs" />
+    <Compile Include="sys\SoftRegistrationInfo.cs" />
+    <Compile Include="sys\SmsComInfo.cs" />
+    <Compile Include="channel\ChannelSupplier.cs" />
+    <Compile Include="channel\ChanelTypeUsers.cs" />
+    <Compile Include="channel\ChanelInfo.cs" />
+    <Compile Include="channel\ChanelTypeInfo.cs" />
+    <Compile Include="channel\CodeMappingInfo.cs" />
+    <Compile Include="financial\tenpay_batch_trans_head.cs" />
+    <Compile Include="financial\tenpay_batch_trans_detail.cs" />
+    <Compile Include="order\OrderConvern.cs" />
+    <Compile Include="Payment\PayPriceConver.cs" />
+    <Compile Include="Payment\PayRate.cs" />
+    <Compile Include="app\TransferInfo.cs" />
+    <Compile Include="app\EntrustInfo.cs" />
+    <Compile Include="app\APPRechargeInfo.cs" />
+    <Compile Include="app\RechargeInfo.cs" />
+    <Compile Include="app\apprecharge.cs" />
+    <Compile Include="settled\UsersAmtFreezeInfo.cs" />
+    <Compile Include="settled\TocashSchemeInfo.cs" />
+    <Compile Include="settled\transfer.cs" />
+    <Compile Include="settled\increaseAmt.cs" />
+    <Compile Include="settled\transferscheme.cs" />
+    <Compile Include="basedata\identitycard.cs" />
+    <Compile Include="order\OrderBase.cs" />
+    <Compile Include="order\OrderCardInfo.cs" />
+    <Compile Include="order\OrderSmsInfo.cs" />
+    <Compile Include="order\CardItemInfo.cs" />
+    <Compile Include="order\OrderBankInfo.cs" />
+    <Compile Include="order\reconciliation_temp.cs" />
+    <Compile Include="MobileSmslog.cs" />
+    <Compile Include="ResultV.cs" />
+    <Compile Include="Smslog.cs" />
+    <Compile Include="ShowStyleEnum.cs" />
+    <Compile Include="AppTypeEnum.cs" />
+    <Compile Include="SettledmodeEnum.cs" />
+    <Compile Include="CPAInfo.cs" />
+    <Compile Include="MemberType.cs" />
+    <Compile Include="AdsStatusEnum.cs" />
+    <Compile Include="WebSiteStatus.cs" />
+    <Compile Include="SiteType.cs" />
+    <Compile Include="SupplierCode.cs" />
+    <Compile Include="SettledStatus.cs" />
+    <Compile Include="AdminLevel.cs" />
+    <Compile Include="AdsTypeEnum.cs" />
+    <Compile Include="PayStatus.cs" />
+    <Compile Include="JuBaoEnum.cs" />
+    <Compile Include="JuBaoStatusEnum.cs" />
+    <Compile Include="feedbacktype.cs" />
+    <Compile Include="feedbackstatus.cs" />
+    <Compile Include="NewsType.cs" />
+    <Compile Include="ManageRole.cs" />
+    <Compile Include="User\UserLevelEnum.cs" />
+    <Compile Include="User\userHostStatus.cs" />
+    <Compile Include="User\UserTypeEnum.cs" />
+    <Compile Include="User\AcctChangeEnum.cs" />
+    <Compile Include="User\noRefCheckStatusEnum.cs" />
+    <Compile Include="User\UserFromPartners.cs" />
+    <Compile Include="User\IdImageStatus.cs" />
+    <Compile Include="User\EmailCheckStatus.cs" />
+    <Compile Include="User\EmailCheckType.cs" />
+    <Compile Include="User\UserStatusEnum.cs" />
+    <Compile Include="sys\debugtypeenum.cs" />
+    <Compile Include="channel\ChannelTypeEnum.cs" />
+    <Compile Include="channel\EnumChannelType.cs" />
+    <Compile Include="channel\OpenEnum.cs" />
+    <Compile Include="channel\ChannelClassEnum.cs" />
+    <Compile Include="order\RateTypeEnum.cs" />
+    <Compile Include="Model\CPS.cs" />
+    <Compile Include="settled\AmtFreezeInfoStatus.cs" />
+    <Compile Include="settled\AmtunFreezeMode.cs" />
+    <Compile Include="settled\optypeenum.cs" />
+    <Compile Include="order\CheckCardResult.cs" />
+    <Compile Include="order\OrderStatusEnum.cs" />
+    <Compile Include="order\OrderSmsNotify.cs" />
+    <Compile Include="order\OrderNofityStatusEnum.cs" />
+    <Compile Include="order\OrderCardNotify.cs" />
+    <Compile Include="order\OrderNotify.cs" />
+    <Compile Include="order\OrderTypeEnum.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\viviLib\viviLib.csproj">
+      <Project>{1FC5360E-B2DA-4521-A123-8C176B8DDAD5}</Project>
+      <Name>viviLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

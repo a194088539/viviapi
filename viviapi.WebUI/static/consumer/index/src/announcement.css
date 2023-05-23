@@ -1,0 +1,29 @@
+.announcement{
+    font-size: 14px;
+    line-height: 1.4;
+    height: 160px;
+    background: #fff;
+    position: relative;
+    display: none;
+}
+.preloadimg{
+    position: absolute;
+    left: -9999px;
+}
+.announcement .close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+    color: #333;
+    opacity: 0.6;
+}
+.announcement .close:hover{
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: none;
+}

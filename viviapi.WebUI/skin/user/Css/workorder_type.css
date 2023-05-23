@@ -1,0 +1,89 @@
+﻿.workorder-main {
+	padding-top: 27px;
+}
+.workorder-type-container {
+	padding-right: 5px;
+}
+.workorder-type-line {
+	position: relative;
+	z-index: 10;
+	margin-bottom: 24px;
+	border: 1px solid #F4F4F4;
+}
+.workorder-type-line-title {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	width: 1em;
+	padding: 20px 1em;
+	background-color: #009FD9;
+	line-height: 1;
+	font-size: 14px;
+	color: white;
+}
+.workorder-type-line-titlepad {
+	margin-left: 3em;
+	/* 与.workorder-type-line-title类一致的字体大小，才可腾出一样大的显示空间 */
+	font-size: 14px;
+}
+.workorder-type-item {
+	float: left;
+	width: 48%;
+	line-height: 1;
+}
+.workorder-type-item-iconpad {
+	margin-left: 24px;
+	padding-left: 84px;
+	background: url(../images/icon_workorder_money.png) no-repeat 14px center;
+}
+.workorder-iconpad-money {
+	background-image: url(../images/icon_workorder_money.png);
+}
+.workorder-iconpad-compact {
+	background-image: url(../images/icon_workorder_compact.png);
+}
+.workorder-iconpad-account {
+	background-image: url(../images/icon_workorder_account.png);
+}
+.workorder-iconpad-net {
+	background-image: url(../images/icon_workorder_net.png);
+}
+.workorder-iconpad-general {
+	background-image: url(../images/icon_workorder_general.png);
+}
+.workorder-iconpad-presales {
+	background-image: url(../images/icon_workorder_presales.png);
+}
+.workorder-iconpad-record {
+	background-image: url(../images/icon_workorder_record.png);
+}
+.workorder-iconpad-activity {
+	background-image: url(../images/icon_workorder_activity.png);
+}
+.workorder-type-item-title {
+	padding-top: 25px;
+	font-size: 16px;
+	color: #545454;
+}
+.workorder-type-item-text {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #999;
+}
+.workorder-type-button-submit {
+	display: inline-block;
+	margin-top: 16px;
+	margin-bottom: 23px;
+	padding: 5px;
+	border: 1px solid #FF8F17;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #FF8400;
+}
+.workorder-type-button-submit:hover {
+	color: white;
+	background: #FF8F17;
+	/*color: #FF8400;
+	background: #FFECD7;*/
+}

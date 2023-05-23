@@ -1,0 +1,386 @@
+﻿
+
+	
+
+
+
+
+
+	
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="renderer" content="webkit">
+<link rel="shortcut icon" type="image/ico" href="/static/images/fav.ico" />
+<meta http-equiv="Cache-Control" content="no-store" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="windows-Target" content="_top" />
+<meta content="汇宝支付,汇宝支付,超声波支付,汇宝支付,线下支付，快捷支付,第三方支付" name="keywords" />
+<meta content="汇宝支付是上海汇宝支付网络科技公司创办的中国领先的移动支付平台，致力于为移动互联网用户和企业提供安全、便捷、专业的支付服务。" name="description" />
+<title>汇宝支付</title>
+
+<!-- Bootstrap core CSS -->
+<link href="static/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="static/custom/css/base.css" rel="stylesheet">
+<link href="static/custom/css/common.css" rel="stylesheet">
+<link href="static/custom/css/index.css" rel="stylesheet">
+<link href="static/plug-in/breakingnews/BreakingNews.css" rel="stylesheet">
+
+<!-- security password component -->
+<script type="text/javascript" src="static/custom/js/writeObject.js"></script>
+
+
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="static/custom/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="static/custom/js/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- include the header file -->
+	
+
+    
+<!--topBar-->
+<div class="navbar-fixed-top">
+	<div id="topbar">
+		<div class="topbar-container">
+			<span class="topbar-notify">
+				<div class="BreakingNewsController easing" id="breakingnews">
+					<div class="bn-title"></div>
+					<ul>
+						
+						<li>
+						    <a href="/pubInfo.do?method=noticeDetail&id=381&topType=0" target="blank">
+						        关于清明节商户结算的公告
+						    </a>
+						</li>
+						
+					</ul>
+				</div>
+			</span> <span class="topbar-nav">
+				<ul>
+					<li class="am-service"><a href="javascript:;" onmouseover="downlist_fix_pwd_hide();" onmouseout="downlist_fix_pwd_show();"><span
+							class="glyphicon glyphicon-qrcode topbar-nav-ico"
+							aria-hidden="true"></span> <span class="topbar-nav-text">汇宝支付钱包</span></a>
+						 <div class="downlist" style="width: 180px; left: -70px;" onmouseover="downlist_fix_pwd_hide();" onmouseout="downlist_fix_pwd_show();">
+                            <div style="color: #8E8E8E;padding:30px 20px 10px 20px" onmouseover="downlist_fix_pwd_hide();">
+                                <table width="100%">
+									<tr>
+									    <td><img src="/static/images/ios-qrcode-v1.0.png"
+											width="110" height="110" class="img-thumbnail" /></td>
+									</tr>
+									<tr height="40"> 
+									    <td>扫一扫</td>
+									</tr>
+								</table>
+							</div>
+						</div></li>
+					<li><span>|</span></li>
+
+					<li class="am-service"><a href="javascript:;"> <span
+							class="glyphicon glyphicon-menu-hamburger topbar-nav-ico"
+							aria-hidden="true"></span> <span class="topbar-nav-text">其它平台登录</span>
+							<i class="arrow-down"></i>
+					</a>
+						<div class="downlist">
+							<div class="">
+								<a href="https://p2padmin.sjiepay.com ">P2P商户</a> <a href="https://b2cmng.sjiepay.com ">平台类商户</a>
+							</div>
+						</div></li>
+					<li><span>|</span></li>
+					<li><a><span class="glyphicon glyphicon-earphone"
+							aria-hidden="true"></span> 400-677-1357</a></li>
+					<li><span>|</span></li>
+					<li><a href="tencent://message/?Menu=yes&amp;amp;uin=1833366652&amp;amp;Service=58&amp;amp;SigT=A7F6FEA02730C9884181EF9AC88A4146E145E7DD0A69E08A80F3591AC4423477F6EAF57E8EC72A41FDE29C5672E61533C89C359F8D00713E9F078DB4FF916EDF0C41877BCD12F31EF6C16E55DFD1433A4BE2B10305A7625419A5E7235146A2B26272DA037A2BF791386969819D8552DCD9DEA118C96FAC11&amp;amp;SigU=30E5D5233A443AB2CC7C167873D413EF29BBE38D5E58ACB5AD271E0F07578F33E4860F17A38CC2E8F12F07B9574B6548610419D5164AB59C3CC9E92CA9170B804367879D1CFDF27D" title="点击咨询客服人员"><span class="custom-service-ico" aria-hidden="true"><span style="margin-left:14px;">客服</span></span></a></li>
+					<li><span>|</span></li>
+					<li><a href="/views/helper.jsp"><span
+							class="glyphicon glyphicon-question-sign topbar-nav-ico"
+							aria-hidden="true"></span> <span class="topbar-nav-text">帮助中心</span></a></li>
+
+				</ul>
+			</span>
+		</div>
+	</div>
+	<!--navBar-->
+	<nav class="navbar navbar-default rgba">
+		<div class="container navbar-container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="https://wwww.sjiepay.com ">
+				    <div class="mo-logo"></div>
+				    <!-- <img src="/static/images/logov3.png" class="mo-logo" /> -->
+				</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav nav-link-direction">
+					<li id="nav1" class="active"><a href="/">首页</a></li>
+					<li id="nav2"><a href="/views/solution.jsp?navId=2">行业方案</a></li>
+					<li id="nav3"><a href="/views/product.jsp?navId=3">支付产品</a></li>
+					<li id="nav4"><a href="/views/service.jsp?navId=4">商户服务</a></li>
+					<li id="nav5"><a href="/views/security.jsp?navId=5">安全中心</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+</div>
+
+	<!-- Carousel
+         ================================================== -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<a href="http://www.lfshanrong.com" target="_blank">
+					<div class="item bg bg1">
+					</div>
+				</a>
+			</div>
+			<div class="item">
+				<a href="http://shan-bu.com" target="_blank">
+					<div class="item bg bg2"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a href="http://www.shandata.com" target="_blank">
+					<div class="item bg bg3"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a href="views/app.jsp" target="_blank">
+					<div class="item bg wallet"></div>
+				</a>
+			</div>
+			<div class="item">
+				<a href="views/service.jsp?navId=4&itemId=6" target="_blank">
+					<div class="item bg bg5"></div>
+				</a>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button"
+			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
+			aria-hidden="true"></span> <span class="sr-only">Previous</span>
+		</a> <a class="right carousel-control" href="#myCarousel" role="button"
+			data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- /.carousel -->
+
+    <!-- 登录框 -->
+	<div class="login-window" id="loginWindow">
+		<form id="userLogin" name="userLogin" method="post" action="https://merchant.sjiepay.com /commonController.do?method=login">
+			<h4 class="text-center login-w-title">商户登录</h4>
+			<!-- username -->
+			<input class="txt" type="text" placeholder="账号"  name="j_username" id="j_username" autocomplete="off"
+			 onkeydown="nameToPassFocus(event)"/> 
+			
+			<input class="txt" type="hidden" name="j_password" id="j_password" />
+			<div style="width:100%;height:40px;background:#fff;margin: 5px 0px;padding-top:10px;padding-left:10px;" id="securityPwd">
+			    <script type="text/javascript">
+			        writePassObject("powerpass",{"width":226,"caption":"密码软键盘","borderColor":"#ffffff"});
+				</script>
+			</div>
+			    
+			<div>
+				<table style="width:100%">	
+					<tr>
+						<td>
+						    <input class="txt" type="text" placeholder="验证码"  name="j_captcha_response"
+								id="j_captcha_response" maxlength='4' autocomplete="off" 
+							style="width: 100%" onkeydown="enterOnCapatcha(event);" />
+						</td>
+						<td width="10"></td>
+						<td>
+						    <img src="https://merchant.sjiepay.com /commonController.do" data-toggle="tooltip" data-placement="bottom" title="点我换一张" id="loginImg"
+							style="height: 40px; width: 113px;" onclick="m_reload('https://merchant.sjiepay.com /commonController.do')" />
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="login-w-msg" id="messageBox"></div>
+			<button type="button" class="btn btn-warning login-w-btn"
+				id="loginBtn">登 录</button>
+			<h5>
+			    <a href="https://merchant.sjiepay.com /view/acc/findLoginPW.jsp" style="color:#fff;">忘记密码？</a>
+			    <a href="/setup/PowerEnterMBPAY.exe" style="float:right;"><small style="color:#F0AD4E;">下载安全控件</small></a>
+			</h5>
+		</form>
+	</div>
+	<!-- 登录框结束 -->
+
+    <!-- mpos deleted
+	<div class="container-fluid mpos">
+		<table width="100%" height="100%">
+			<tr>
+				<td width="58%"></td>
+				<td><a href="views/register.jsp" class="register_btn publicstyle">注册</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="views/product.jsp?navId=3"
+					class="detail_btn publicstyle">详情</a></td>
+			</tr>
+		</table>
+	</div>
+	 -->
+
+    <!-- quick faq -->
+	<div class="container marketing q-faq-fix">
+		<div class="row">
+			<div class="col-lg-4">
+				<img class="img-circle" src="static/images/t_one.png"
+					alt="Generic placeholder image" width="140" height="140">
+				<h4 class="q-faq-text"><a href="views/helper.jsp">如何接入汇宝支付？</a></h4>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<img class="img-circle" src="static/images/t_two.png"
+					alt="Generic placeholder image" width="140" height="140">
+				<h4 class="q-faq-text"><a href="views/helper.jsp?itemId=11">签约流程</a></h4>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<img class="img-circle" src="static/images/t_three.png"
+					alt="Generic placeholder image" width="140" height="140">
+				<h4 class="q-faq-text"><a href="views/service.jsp?navId=4">产品服务</a></h4>
+			</div>
+			<!-- /.col-lg-4 -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- quick end -->
+
+    <!-- bottom -->
+	<div class="container" style="padding-bottom: 30px">
+		<h4>合作金融机构</h4>
+        <img class="bank-logo" src="static/images/bank-yinlian.png" />
+        <img class="bank-logo" src="static/images/bank-zhongguo.png" />
+		<img class="bank-logo" src="static/images/bank-gongshang.png" /> <img
+			class="bank-logo" src="static/images/bank-jianshe.png" /> <img
+			class="bank-logo" src="static/images/bank-nongye.png" />
+		<img class="bank-logo" src="static/images/bank-zhaoshang.png" />
+	    <img class="bank-logo" src="static/images/bank-jiaotong.png" />
+	    <img class="bank-logo" src="static/images/bank-guangda.png" />   <img
+			class="bank-logo" src="static/images/bank-zhongxin.png" /> <img
+			class="bank-logo" src="static/images/bank-bohai.png" /> <img
+			class="bank-logo" src="static/images/bank-xingye.png" /> <img
+			class="bank-logo" src="static/images/bank-mingsheng.png" /> 
+
+		<div style="margin-top: 40px; margin-bottom: 150px; color: #333">
+			<div style="float: left">
+				<h5>
+					<strong>客服热线</strong>（周一至周五9:00-17:30，节假日除外）
+				</h5>
+				<h3>400-677-1357<a title="点击咨询客服人员" href="tencent://message/?Menu=yes&amp;amp;uin=1833366652&amp;amp;Service=58&amp;amp;SigT=A7F6FEA02730C9884181EF9AC88A4146E145E7DD0A69E08A80F3591AC4423477F6EAF57E8EC72A41FDE29C5672E61533C89C359F8D00713E9F078DB4FF916EDF0C41877BCD12F31EF6C16E55DFD1433A4BE2B10305A7625419A5E7235146A2B26272DA037A2BF791386969819D8552DCD9DEA118C96FAC11&amp;amp;SigU=30E5D5233A443AB2CC7C167873D413EF29BBE38D5E58ACB5AD271E0F07578F33E4860F17A38CC2E8F12F07B9574B6548610419D5164AB59C3CC9E92CA9170B804367879D1CFDF27D"><img src="static/images/qq_icon_t.png" style="margin-left:50px;"/></a></h3>
+			</div>
+			<div style="float: right; margin-right: 62px">
+				<div style="float: right">
+					<img width="120" height="120" class="img-thumbnail"
+						src="static/images/ios-qrcode-v1.0.png" />
+					<p class="text-center" style="margin-top: 8px; color:#565656;">扫一扫</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end -->
+
+	<!-- include the footer file -->
+	
+<!-- footer -->
+<div class="container-fluid footbar-padding-fix footbar">
+
+	<div class="footbar-top">
+
+		<p class="text-center"><a href="/views/about.jsp">关于汇宝支付</a> | <a href="/views/recruit.jsp">招聘英才</a> | <a href="/views/contact.jsp">联系我们</a></p>
+
+		<p class="text-center">地址：成都市高新区益州大道中段1800号软件园G区4栋11楼</p>
+
+		<div class="footbar-line"></div>
+
+		<p class="text-center">© 2009-2015 <span ondblclick="javascript:window.location.href='http://new.cnzz.com/v1/login.php?siteid=1256424956'">汇宝支付科技</span>版权所有</p>
+
+		<p class="text-center">泸ICP备：16007966号-2 增值电信业务经营许可证：<a target="_blank" href="http://www.miit.cc/verifyseal/132656">泸-16007966号-2</a></p>
+
+		<p class="text-center">
+			<div class="internet_police">
+            <div class="u-org f-clearfix">
+                <a class="zfxk" title="支付许可证书" target="_blanks" href="https://www.sjiepay.com /views/paycert.jsp"></a>
+                <a class="wsbj" title="网上报警" target="_blank" href="http://www.cdnet110.com/"></a>
+                <a class="baxx" title="经营性网站备案信息" href="#"></a>
+                <a class="yue" title="不良信息举报" href="http://net.china.com.cn/"></a>
+                <a class="ssl" title="SSL安全网站签章" target="_blank" href="https://smarticon.geotrust.com/smarticonprofile?Referer=http://sjiepay.com "></a>
+            </div>
+        </div>
+		</p>
+		<span style="visibility:hidden"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256424956'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256424956%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span>
+	</div>
+
+</div>
+
+<!-- jquery1.11.3 -->
+<script src="/static/jquery/1.11.3/jquery.min.js"></script>
+<!-- bootstrap3.3.5 -->
+<script src="/static/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/custom/js/ie10-viewport-bug-workaround.js"></script>
+<!-- common js -->
+<script type="text/javascript" src="/static/custom/js/common.js"></script>
+<!-- 公告轮播插件 -->
+<script type="text/javascript"
+	src="/static/plug-in/breakingnews/BreakingNews.js"></script>
+	
+<script type="text/javascript">
+$(document).ready(function() {
+	//公告轮播
+    startNotice();
+    
+   //设置默认选中的标签
+	
+});
+</script>
+
+	<script type="text/javascript" src="static/custom/js/index.js"></script>
+	<script type="text/javascript">
+	function login() {
+		$('#messageBox').show();
+		if(checkUserName() && checkPassword('1460474761885') && checkCapatcha()) {
+			$('#messageBox').hide();
+			$("#userLogin").submit();
+		}
+	}
+	</script>
+	<script language="javascript" for='powerpass_ie' event='EventTab'>
+			//将焦点放在id为login的标签上。
+			j_captcha_response.focus();
+		</script>
+	<script language="javascript" for='powerpass_ie' event='EventReturn'>
+			//将焦点放在id为login的标签上。
+			j_captcha_response.focus();
+		</script>	
+</body>
+</html>

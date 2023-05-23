@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font-size:14px; font-family:"宋体"}
+.tb_null{ width:100%; height:10px;}
+.h_tb_null{ width:100%; height:30px;}
+
+
+
+/***********************支付宝页面css********************************/
+#zfb_top{ background:url(../images/zfb_top.jpg) no-repeat center top; width:100%; height:90px;}
+.top_box{ width:1000px; height:90px; margin:0 auto;}
+.top_box_txt{ width:400px; height:40px; line-height:40px; margin-top:50px; float:right; text-align:center; color:#FFFFFF;}
+.top_box_txt a{ color:#FFFFFF; text-decoration:none;}
+.top_box_txt a:hover{ color:#FFFFFF; text-decoration:none;}
+
+#zfb_main{ background:url(../images/zfb_bg.jpg) no-repeat center top; width:100%; height:844px;}
+.main_box{ width:1000px; height:844px; margin:0 auto;}
+.top_txt_1{ width:100%; height:57px;  line-height:57px; text-align:left;}
+.top_txt_1_int{width:50px; height:57px; line-height:57px; float:left;}
+.top_txt_1_txt{ width:950px; height:57px; line-height:57px; text-align:left; font-size:16px; color:#315277; float:right; }
+.main_box_box{ width:1000px; height:auto; margin:0 auto;}
+.main_box_box_txt{ width:1000px; height:40px; line-height:40px; margin:0 auto; text-align:center; font-size:15px;}
+.zfb_rwm{ width:338px; height:327px; margin:0 auto; background:url(../images/zfb_rwm.png) no-repeat center;}
+.rwm_img{  width:236px; height:236px; margin:0 auto;}
+.main_box_box_txt2{ width:600px; height:27px; line-height:27px; margin:0 auto; text-align:center; font-size:16px;}
+.main_box_box_input{ width:111px; height:27px; line-heigth:27px; font-size:12px; margin:0 auto; background:url(../images/zfb_input.png) no-repeat;}
+
+
+
+/********************微信css***********************************/
+#wx_main{  background:url(../images/wx_bg.jpg) no-repeat center top; width:100%; height:838px;}
+.ts_txt{ width:1000px; height:60px; text-align:center; line-height:60px; font-size:16px; color:#FFCC00; font-weight:bold;}
+.ts_txt_txt{ width:1000px; height:30px; line-height:30px; font-size:14px; text-align:center; color:#FFFFFF;}
+.main_box_box_input_wx{ width:327px; height:45px; margin:0 auto; line-height:45px; text-align:center; background:url(../images/wx_input.png) no-repeat center;}
+.bottom_txt{ width:1000px; height:100px; line-height:100px; text-align:center; font-size:16px; }

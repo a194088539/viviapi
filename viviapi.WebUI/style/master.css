@@ -1,0 +1,114 @@
+/*公共样式*/
+* { margin: 0px; padding: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+body {font-size: 12px; color: #585858}
+.clear { font-size: 0px; line-height: 0px; clear: both; height: 0px; visibility: hidden; }
+/*字体*/
+.font1 { color: #DA0318; font-size: 12px; font-family: "宋体"; }
+.font2 { font-family: Arial; }
+.font3 { }
+.font4 { }
+.font5 { }
+/*链接*/
+.link1 { }
+.link1:hover { }
+.link2 { }
+.link2:hover { }
+/*框架*/
+#top { height: 110px; width: 100%; }
+#top_up { height: 58px; width: 100%; background-image: url("01.jpg"); background-repeat: repeat-x; }
+#logo { height: 58px; width: 380px; float:left; }
+#exit { height: 58px; width: 50%; float:right; padding-right: 25px; line-height: 58px; text-align: right; color: #CDCACA; }
+#exit_right { height: 58px; float:right; line-height: 58px; text-align: right; color: #CDCACA; padding-left: 10px;}
+#exit_left { height: 38px; width: 14px; float:right; padding-top: 20px; }
+#exit a { color: #ffffff; text-decoration: none; }
+#exit a:hover { color: #ffffff; text-decoration: underline; }
+#top_down { height: 51px; width: 100%; background-image: url("02.jpg"); background-repeat: repeat-x; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #cccccc; }
+#user { height:51px; width:240px; }
+#user_left { float: left; height: 46px; width: 42px; padding-right: 18px; padding-left: 27px; padding-top: 5px; }
+#user_right { float: right; height: 51px; width: 152px; }
+#user_right h3 { width: 152px; height: 18px; padding-top: 9px; font-family: Arial; font-size: 12px; font-weight: bold; color: #000102; line-height: 18px; }
+#user_right p { width: 152px; height: 18px; color: #333333; line-height: 18px; }
+#wrapper { height: 550px; width: 100%; background-image: url("04.jpg"); background-repeat: repeat-y; background-position: left top; background-color: #FFFFFF; margin-bottom: 1px; }
+#left { float: left; width: 240px; height: 500px; }
+#right { margin-left: 240px; height: 460px; }
+#welcome { height: 459px; width: 100%; text-align: center; background-image: url("08.jpg"); background-repeat: repeat-x; background-color: #FAFAFA; }
+#list_content { padding: 10px; }
+#search { line-height: 35px; color: #454545; background-position: right; width: 100%; padding-bottom: 5px; }
+.search_txt_01 { background-color: #F4F4F4; height: 24px; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #aaaaaa; border-bottom-color: #ffffff; border-left-color: #aaaaaa; line-height: 24px; background-position: 8px; color: #6D6D6D; font-family: Arial, Helvetica, sans-serif; text-indent: 10px; border-right-width: 1px; border-right-style: solid; border-right-color: #f4f4f4; }
+.search_button_01 { background-image: url("11.jpg"); background-repeat: no-repeat; height: 27px; width: 58px; color: #FFFFFF; font-weight: bold; font-size: 14px; }
+.search_button_01:hover { background-image: url("11.jpg"); background-repeat: no-repeat; height: 27px; width: 58px; background-position: left -27px; }
+#title { height: 27px; font-weight: bold; font-size: 14px; color: #C7060B; line-height: 27px; }
+.list_title { height: 35px; line-height: 35px; color: #454545; }
+#footer { height: 30px; width: 100%; line-height: 30px; text-align: center; border-top-width: 1px; border-top-style: solid; border-top-color: #CCCCCC; background-color: #f8f8f8; font-family: Arial; }
+/*菜单*/
+div.sdmenu { width: 238px; font-family: Arial, sans-serif; font-size: 12px; color: #fff; }
+div.sdmenu div { overflow: hidden; background-image: url("05.jpg"); background-repeat: repeat-x; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #DDDDDD; background-color: #FFFFFF; }
+div.sdmenu div:first-child { background-image: url("05.jpg"); background-repeat: repeat-x; }
+div.sdmenu div.collapsed { height: 39px; }
+div.sdmenu div h2 { display: block; font-weight: bold; color: #343434; cursor: default; background-image: url("05.jpg"); background-repeat: repeat-x; height: 39px; font-size: 14px; line-height: 39px; padding-left: 26px; }
+div.sdmenu div h2 p { display: block; float: left; width: 169px; }
+div.sdmenu div h2 img { display: block; float: right; margin-right: 17px; }
+div.sdmenu div.collapsed h2 { }
+div.sdmenu div a { padding: 5px 10px; display: block; color: #343434; float: left; width: 83px; padding-left: 26px; line-height: 26px; text-decoration: none; font-size: 12px; }
+div.sdmenu div a.current { }
+div.sdmenu div a:hover { color: #990000; text-decoration: underline; }
+#tools { width:212px; display: block; font-weight: bold; color: #343434; cursor: default; background-image: url("05.jpg"); background-repeat: repeat-x; height: 39px; font-size: 14px; line-height: 39px; padding-left: 26px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #dddddd; }
+#tools a { font-weight: bold; color: #343434; text-decoration: none; }
+#tools a:hover { font-weight: bold; color: #343434; text-decoration: none; cursor: default; }
+/*文本框*/
+.txt_01 { background-color: #F4F4F4; height: 24px; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #aaaaaa; border-bottom-color: #ffffff; border-left-color: #aaaaaa; line-height: 24px; background-position: 8px; color: #6D6D6D; font-family: Arial, Helvetica, sans-serif; text-indent: 10px; border-right-width: 1px; border-right-style: solid; border-right-color: #f4f4f4; }
+.mutitxt_03 { background-color: #F4F4F4;  
+              border-top-width: 1px; 
+              border-bottom-width: 1px; 
+              border-left-width: 1px; 
+              border-top-style: solid; 
+              border-bottom-style: solid; 
+              border-left-style: solid; 
+              border-top-color: #aaaaaa; 
+              border-bottom-color: #ffffff; 
+              border-left-color: #aaaaaa;  
+              background-position: 0px; 
+              color: #6D6D6D; 
+              font-family: Arial, Helvetica, 
+              sans-serif;  border-right-width: 1px; border-right-style: solid; border-right-color: #f4f4f4; }
+.txt_02 { background-color: #E0E0E0; height: 24px; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #aaaaaa; border-bottom-color: #ffffff; border-left-color: #aaaaaa; line-height: 24px; background-position: 8px; color: #6D6D6D; font-family: Arial, Helvetica, sans-serif; text-indent: 10px; border-right-width: 1px; border-right-style: solid; border-right-color: #f4f4f4; }
+/*列表框*/
+.list_txt_01 { background-color: #F4F4F4; height: 24px; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #aaaaaa; border-bottom-color: #ffffff; border-left-color: #aaaaaa; line-height: 24px; background-position: 8px; color: #6D6D6D; font-family: Arial, Helvetica, sans-serif; text-indent: 10px; border-right-width: 1px; border-right-style: solid; border-right-color: #f4f4f4; width: 180px; }
+/*线条*/
+.line_01 { border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #dddddd; font-size: 13px; font-family: "微软雅黑"; }
+/*按钮*/
+.button_01 { background-image: url("01.gif"); background-repeat: no-repeat; height: 26px; width: 60px; text-align: center; line-height: 30px; color: #454545; }
+.button_01:hover { background-image: url("01.gif"); background-repeat: no-repeat; color: #000000; background-position: left -26px; line-height: 30px; }
+.txt_OK {
+background-color: #B9EAC6; height: 16px; line-height: 16px; background-position: 8px; color: #000000; font-family: "微软雅黑"; text-indent: 10px;
+}
+.txt_ERROR {
+background-color: #FFA8A6; height: 16px; line-height: 16px; background-position: 8px; color: #000000; font-family: "微软雅黑"; text-indent: 10px;
+}
+.link3 { color: #777777; text-decoration: none; height: 12px; display: inline; width: auto; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #D8D8D8; padding-top: 2px; padding-right: 8px; padding-bottom: 3px; padding-left: 8px; background-image: url("20.jpg"); background-repeat: repeat-x; background-position: left 3px; border-bottom-color: #aaaaaa; }
+.link3:hover { background-color: #F7F7F7; color: #971922; background-image: url("20.jpg"); background-repeat: repeat-x; background-position: left -19px; }
+
+
+/* 追加 */
+/*字体*/  追加下面样式
+
+.font11 { color: #676767; font-size: 14px; font-family: "微软雅黑"; }
+.font12 { color: #DA0318; font-size: 14px; font-family: "宋体"; }
+
+/*按钮*/  追加下面样式
+
+.btn_02 { height: 28px; width: 97px; background-image: url("reset-1.jpg"); background-repeat: no-repeat; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.btn_03 { background-image: url("23.jpg"); background-repeat: no-repeat; background-position: left top; height: 65px; width: 145px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; display: block; cursor: hand; background-color: #FFFFFF; color: #FFFFFF;}
+.btn_03:hover { background-image: url("23.jpg"); background-repeat: no-repeat; background-position: left -65px; height: 65px; width: 145px; display: block; background-color: #FFFFFF; }
+
+/*框*/  追加下面样式
+
+
+.txt_03 { background-image: url("21.jpg"); background-repeat: repeat-x; background-position: left; height: 26px; width: 205px; line-height: 26px; color: #666666; display: block; text-indent: 5px; border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; border-top-color: #7A7979; border-left-color: #A8A6A6; border-right-style: none; border-bottom-style: none; }
+.txt_04 { background-image: url("21.jpg"); background-repeat: repeat-x; background-position: left; height: 26px; width: 120px; line-height: 26px; color: #666666; display: block; text-indent: 5px; border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; border-top-color: #7A7979; border-left-color: #A8A6A6; border-right-style: none; border-bottom-style: none; }
+
+/*框架独立部分*/  追加下面样式
+
+#order_list { height: 380px; width: 948px; margin-right: auto; margin-left: auto; border: 1px solid #e1e1e1; margin-top: 22px; background-color: #F8F8F8; }
+#order_title { height: 62px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e1e1e1; width: 948px; background-color: #FFFFFF; }
+#order_content { height: 318px; width: 948px; }

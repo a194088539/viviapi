@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+.Index_card{ width:100%; margin-top:15px;}
+.Index_card .em{ width:53px; height:274px; background:#E8F3F7 url(../../images/User/Icon/27-0.png) center no-repeat;border-top:1px solid #E7E7E7;border-left:1px solid #E7E7E7;border-bottom:1px solid #E7E7E7;	}
+.Index_card .em.Money{ background-image:url(../../images/User/Icon/28.png);}
+.Index_card .em.overcome{ background-image:url(../../images/User/Icon/29.png);}
+.Index_card .Contact{width:100%; height:274px; border-top:1px solid #E7E7E7;border-bottom:1px solid #E7E7E7; border-right:1px solid #E7E7E7;}
+.Index_card .Contact dl{ display:block; width:90%; margin:0px auto; overflow:hidden;}
+.Index_card .Contact dl dt{ width:100%; height: 88px; border-bottom:1px solid #E7E7E7; margin-top: 41px; overflow:hidden;}
+.Index_card .Contact dl dt .Ti{ min-width:290px; min-height:46px;}
+.Index_card .Contact dl dt .Ti .abbr{ font-size:25px; color:#3E3A39;}
+.Index_card .Contact dl dt .Ti .abbr i{ font-size:20px; font-style:normal;}
+.Index_card .Contact dl dt .Bz{ height:41px; font-size:18px; color:#636162;}
+.Index_card .Contact dl .ju{ padding-left:10px; font-size:14px; color:#4A4645;}
+.Index_card .Contact dl .juridht{ padding-ridht:8%; float:right; font-size:14px; color:#4A4645;}
+.Index_card .Contact dl .juridht .Annkeld{ position:relative; top:9px;}
+.Index_card .Contact dl dt .niaoyunicon{ background:url(../../images/User/Icon/27_1.png) no-repeat 0px 0px;}
+.Index_card .Contact dl dd{ width:100%; height: 135px; overflow:hidden; padding:0px;}
+
+.Index_card .Contact dl dd .aul{  display:block; list-style:none;   margin-top: 5px;}
+.Index_card .Contact dl dd .aul li{ height:30px; line-height:30px; font-size:12px; color:#403A3A; background:url(../../images/User/Icon/30.png) no-repeat 0px 7px; padding-left:25px;}
+.Index_card .Contact dl dd .aul li.a{ background-image:url(../../images/User/Icon/31.png);}
+.Index_card .Contact dl dd .aul li.b{ background-image:url(../../images/User/Icon/32.png);}
+.Index_card .Contact dl dd .aul li.c{ background-image:url(../../images/User/Icon/333.png);}
+
+.Index_card .Contact dl dd .bul{ list-style:none; height:30px;}
+.Index_card .Contact dl dd .bul li{ float:left; padding:3px 10px 3px 0px; margin-right:10px; overflow:hidden; background:url(../../images/Line/4.png) no-repeat center right;}
+.Index_card .Contact dl dd .bul li.w{ background:none;}
+.Index_card .Contact dl dd .bul li a{ color:#00AFE8;}
+.Index_card .Contact dl dd .bul li a:hover{ color:#F00;}
+
+.Index_card .Contact dl dd .cul{  display:block; list-style:none; margin-top:10px;}
+.Index_card .Contact dl dd .cul li{ min-height:30px; line-height:30px; font-size:12px;}
+
+.Index_card .dl_1{display:block;}
+.Index_card .dl_1 dt{ height:40px; line-height:40px; border:1px solid #E7E7E7; border-style:solid solid none solid; background:#E8F3F7;}
+.Index_card .dl_1 dt .Dt_1{ min-width:92px; height:40px; color:#595757; float:left; font-size:17px; padding-left:10px;}
+.Index_card .dl_1 dt .Dt_3{ width:40px; height:40px; overflow:hidden; float:right;}
+.Index_card .dl_1 dd{ display:block; border-left:1px solid #E7E7E7; border-right:1px solid #E7E7E7; color:#3E3A39; font-size:12px;}
+.Index_card .dl_1 dd .Dt_0{ margin:0px 13px; background:#FFF;}
+.Index_card .dl_1 .Dd{ height:1px; overflow:hidden; background:#E7E7E7;}
+.Index_card .dl_1 .Dd .Dd_1{ width:25px; height:1px; overflow:hidden; float:left; background:#E7E7E7;}
+.Index_card .dl_1 .Dd .Dd_2{ width:25px; height:1px; overflow:hidden; float:right; background:#E7E7E7;}
+.Index_card .dl_1 .Dd .Dd_3{ width:25px; height:1px; overflow:hidden; float:right; background:#E7E7E7;}
+.Index_card .dl_1 dd .Bpwen1{ width:50%; min-height:59px; line-height:59px; float:left; text-indent:28px; border-bottom:1px solid #E7E7E7;}
+.Index_card .dl_1 dd .Bpwen2{ width:50%; min-height:59px; line-height:59px; float:left; text-indent:28px;}
+.Index_card .dl_1 dd a{color:#00AFE8; text-decoration:none;}
+.Index_card .dl_1 dd a:hover{color:#F00;}
+.Index_card .dl_1 dd .Bpwen1 span,.Index_card .dl_1 dd .Bpwen2 span{ float:left; min-width:240px;}
+
+.Index_card .dl_1 dd .Bpwen1,.Index_card .dl_1 dd .Bpwen2{ background-position:0px 13px; background-repeat:no-repeat;}
+.Index_card .dl_1 dd .Dt_0 .ico1{ background-image:url(../../images/User/Icon/37.png);}
+.Index_card .dl_1 dd .Dt_0 .ico2{ background-image:url(../../images/User/Icon/37.png);}
+.Index_card .dl_1 dd .Dt_0 .ico3{ background-image:url(../../images/User/Icon/37.png);}
+.Index_card .dl_1 dd .Dt_0 .ico4{ background-image:url(../../images/User/Icon/37.png);}
+.Index_card .dl_1 dd .Dt_0 .ico5{ background-image:url(../../images/User/Icon/37.png);}
+.Index_card .dl_1 dd .Dt_0 .ico6{ background-image:url(../../images/User/Icon/37.png);}
+.Index_card .dl_1 dd .Dt_0 .ico7{ background-image:url(../../images/User/Icon/33.png);}
+.Index_card .dl_1 dd .Dt_0 .ico8{ background-image:url(../../images/User/Icon/34.png);}
+
+.Index_card .dl_2{display:block;}
+.Index_card .dl_2 dt{ height:40px; line-height:40px; border:1px solid #E7E7E7; border-style:solid solid none solid; background:#E8F3F7;}
+.Index_card .dl_2 dt .Dt_1{ min-width:92px; height:40px; color:#595757; float:left; font-size:17px; padding-left:10px;}
+.Index_card .dl_2 dt .Dt_3{ width:40px; height:40px; overflow:hidden; float:right;}
+.Index_card .dl_2 dd{ display:block; border-left:1px solid #E7E7E7; border-right:1px solid #E7E7E7; color:#656565; font-size:12px; padding-left:15px;}
+.Index_card .dl_2 dd .Dt_0{  min-height:219px; margin:0px auto; padding:10px 0px; background:#FFF;}
+.Index_card .dl_2 .Dd{ height:1px; overflow:hidden; background:#E7E7E7;}
+.Index_card .dl_2 .Dd .Dd_1{ width:25px; height:1px; overflow:hidden; float:left; background:#E7E7E7;}
+.Index_card .dl_2 .Dd .Dd_2{ width:25px; height:1px; overflow:hidden; float:right; background:#E7E7E7;}
+.Index_card .dl_2 .Dd .Dd_3{ width:25px; height:1px; overflow:hidden; float:right; background:#E7E7E7;}
+.Index_card .dl_2 dd .Bpwen1{ height:44px; line-height:44px; overflow:hidden; padding-right:10px;}
+.Index_card .dl_2 dd .Bpwen2{ height:44px; line-height:44px; overflow:hidden; padding-right:10px;}
+.Index_card .dl_2 dd a{color:#007AB7; text-decoration:none; float:left; display:inline-block; width:78%;}
+.Index_card .dl_2 dd a:hover{color:#F00;}
+.Index_card .dl_2 dd span{ float:right; color:#BFBFBF;}
+
+@media (max-width:1330px){
+	.Index_card .em{ height:231px;}
+	.Index_card .Contact{ height:231px;}
+	.Index_card .Contact dl dt{ margin-top:20px;}
+	.Index_card .Contact dl dt .Ti{ min-width:150px;}
+	.Index_card .Contact dl dt .Ti .abbr{ font-size:20px;}
+	.Index_card .Contact dl dt .Ti .abbr i{ font-size:15px;}
+	.Index_card .Contact dl dt .Bz{ font-size:12px;}
+	.Index_card .Contact dl dt .Ti .ju{ display:block; padding-left:0px; margin-bottom:5px;}
+	.Index_card .Contact dl dt .Bz .ju{ font-size:12px;}
+	.Index_card .Contact dl dd .cul.Pleft50{  padding-left:0px;}
+	.Index_card .Contact dl dt .niaoyunicon .ju{ display:block; padding-left:0px; margin-bottom:5px; padding-left:50px}
+	.Index_card .Contact dl dt .Zsname{ font-size:15px;}
+	.Index_card .Contact dl dt .change .ju{ margin-top:35px;}
+	.Index_card .Contact dl dt .changea{ margin-top:-58px;}
+}
+@media (max-width:1200px){
+	.Index_card .dl_1 dd{ text-align:right;}
+	.Index_card .dl_1 dd .Bpwen1 span,.Index_card .dl_1 dd .Bpwen2 span{ min-width:100px;}
+	.Index_card .dl_1 dd a{ padding-right:10px;}
+}
+/* for .auth-tip-content to show */
+.Index_card .Contact .overflow-visible { overflow: visible; }
+/* 认证及优惠图标 */
+.auth-icon { display: inline-block; width: 18px; height: 18px; background: url(../../images/User/Icon/auth_unauth.png) no-repeat center; }
+.auth-icon-hui { background-image: url(../../images/User/Icon/auth_hui.png); *margin-left: 5px; }
+.auth-state-pass-personal .auth-icon-v { background-image: url(../../images/User/Icon/auth_personal.png); }
+.auth-state-pass-company .auth-icon-v { background-image: url(../../images/User/Icon/auth_company.png); }
+.auth-state-pass-personal .auth-icon-hui, .auth-state-pass-company .auth-icon-hui { background-image: url(../../images/User/Icon/auth_hui_red.png); }
+/* 认证图标上方的提示信息 */
+.auth-icon-v { position: relative; z-index: 10; *top: 5px; }
+.auth-tip { position: absolute; left: 8px; bottom: 28px; z-index: 10; padding: 3px; border: 1px solid #C2C2C2; background: white; }
+.auth-tip-content { line-height: 1; font-size: 12px; color: #535353; white-space: nowrap; vertical-align: baseline; }
+/* 用css模拟信息框的左下角 */
+.auth-tip-corner { left: -1px; bottom: -6px; border: 3px solid #C2C2C2; }
+.auth-tip-corner-inner { top: -3px; left: -2px; border: 2px solid white; }
+.auth-tip-corner, .auth-tip-corner-inner { position: absolute; z-index: 10; width: 0; height: 0; border-style: solid; border-right-color: transparent; border-bottom-color: transparent; }
+/* 信息框类型 */
+.auth-tip-ok, .auth-tip-wait, .auth-tip-warn { display: none; padding-left: 17px; background: url(../../images/User/Icon/auth_tip_ok.png) no-repeat left center; }
+.auth-tip-wait { background-image: url(../../images/User/Icon/auth_tip_wait.png); }
+.auth-tip-warn { background-image: url(../../images/User/Icon/auth_tip_warn.png); }
+/* 根据 认证状态 展示/隐藏 相应类型的信息框 */
+.auth-state-pass-personal .auth-tip, .auth-state-pass-company .auth-tip { display: none; }
+.auth-state-unauth .auth-tip-ok, .auth-state-checking .auth-tip-wait, .auth-state-unpass .auth-tip-warn { display: block; }
+/* 根据 认证状态 展示/隐藏 立即认证按钮 */
+.auth-state-checking .auth-btn, .auth-state-pass-personal .auth-btn, .auth-state-pass-company .auth-btn { visibility: hidden; }
+/* 当屏幕宽度小于1330px时，强制【立即认证按钮】“滑动”到下一行，并与手机号信息调换上下位置 */
+@media (max-width:1330px) {
+	.Index_card .Contact .auth-btn { display: block; margin-top:29px; }
+	.Index_card .Contact .Bz { margin-top: -52px; }
+}
+/* 其它排版及调整样式 */
+.auth-reason-link { color: #00AFE8; }
+.Index_card .Contact dl dt .Ti .abbr { font-size: 18px; }
+.Index_card .Contact .color_shenn { color: #3E3A39; }
+.auth-show { margin-left: 3px; margin-right: 5px; *margin-right: 10px; vertical-align: middle; *position: relative; *top: -2px; }
+.auth-btn { display: inline-block; padding-top: 3px; font-size: 14px; vertical-align: top; }
+.auth-icon-v-link { display: inline-block; height: 100%; width: 100%; *vertical-align: baseline; *font-size: 0; }
+

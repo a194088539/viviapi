@@ -1,0 +1,114 @@
+body {color: #2b2b2b;font:12px "Microsoft YaHei","微软雅黑","SimSun","宋体","Arial Narrow"}
+a  {color:#2b2b2b;}
+a:hover {color:#ff6600;}
+h2,h3 { font-weight: normal;}
+/*a:hover { text-decoration: underline;}*/
+.w { width: 1000px; margin: 0 auto;}
+.iconBox .hd i,.iconBox  i,.fotter p i,.Cmodel_1 .more,.login i,.Crumbs i,.helpBox i,.AffiliateBox li i,.cardBox li i,.Partner .bd a{background: url("../img/api_icon.png") no-repeat;}
+.login { background: #333; height: 29px; line-height: 25px; color: #898989; font-family:"SimSun","宋体","Arial Narrow"; }
+.login a { color: #898989; padding: 0 10px;}
+i.qq_icon,i.weibo_icon{ width: 23px;height: 19px;display:inline-block; position:relative;top: 5px; padding-right:5px;}
+i.qq_icon { background-position:-432px -154px;}
+i.weibo_icon{background-position:-432px -174px;}
+.logo { margin-top:35px; line-height: 50px;}
+.fotter { background: #2b2b2b; width: 100%; height: 75px; color: #7e8181; padding: 25px 0; }
+.fotter a {color: #7e8181; padding: 0 5px;}
+.fotter p { color: #bfbfbf; font-size: 30px; font-weight: bolder; }
+.fotter p i {background-position:-381px -152px;display:inline-block; width: 40px; height: 38px; position: relative;top:5px;}
+.focusBox { background: url("../img/four_banner_1.gif") center no-repeat; width: 100%; height: 400px; margin-top:26px; }
+.nav li{ float: left; font-size: 18px; margin-left:60px; width: 100px; text-align: right;}
+.nav li a.current { color:#ff6600}
+.nav li a span {padding-right:10px; font-family: "Arial";}
+.header .help {background: url("../img/four_banner_4.gif") center no-repeat; height: 261px;}
+.header .Affiliate{background: url("../img/four_banner_5.gif") center no-repeat; height: 261px;}
+.header .card{background: url("../img/four_banner_6.gif") center no-repeat; height: 261px;}
+#iview2 h3,#iview2 P {font-family:"Microsoft YaHei","微软雅黑"}
+
+
+.iconBox .hd i,.iconBox  i { display: block; width: 110px; height: 110px; margin: 0 auto; margin-bottom:36px;}
+.iconBox .hd li { width: 250px; text-align: center; float: left; height: 220px; position: relative;}
+.iconBox .hd li a { font-size: 22px;}
+.iconBox .hd li.current a {color: #ed6d00; }
+.iconBox i.icon_1 {background-position:0 0;}
+.iconBox i.icon_2 {background-position:-111px 0;}
+.iconBox i.icon_3 {background-position:-222px 0;}
+.iconBox i.icon_4 {background-position:-333px 0;}
+.ColumnBox_1 li h3 { font-size: 24px; text-align:left; }
+.ColumnBox_1 li p { margin-top:10px; text-align: left;font-family:"SimSun","宋体","Arial Narrow"; line-height: 1.6;}
+.ColumnBox_1 { margin-top:50px; }
+.ColumnBox_2 { margin-top: 80px;}
+.ColumnBox_2 dl { background: url("../img/aboutBox_bg.jpg") no-repeat; width: 1000px;height: 263px;}
+.ColumnBox_2 .box_2 { height: 318px; background-position:0 -263px;}
+.ColumnBox_2 .box_3 {background-position:0 -581px;}
+.ColumnBox_2 dt { font-size: 16px; color: #ff6600; padding:55px 0 20px 60px;}
+.ColumnBox_2 dd { line-height: 1.8;font-family:"SimSun","宋体","Arial Narrow"; padding-left:60px; }
+.ColumnBox_2 .box_2 dd,.ColumnBox_2 .box_2 dt { padding-left:620px; }
+.ColumnBox_2 .box_2 dt { padding-top:100px }
+.ColumnBox_2 .news { width: 390px;}
+.ColumnBox_2 .Partner { width: 510px;}
+.Cmodel_1 .more { background-position:-330px -156px; width: 40px; height:25px; margin-top:10px; }
+.Cmodel_1  h2 { font-size: 20px;}
+.Cmodel_1  h2 span { color: #adadad; font-size: 14px;}
+.Cmodel_1  h2 span span { font-size: 24px; padding: 0 5px}
+.ColumnBox_2 .news li { padding-bottom:8px; margin-top:8px; border-bottom:1px dotted #c2c2c2; overflow: hidden; color: #757575  }
+.ColumnBox_2 .news li a  { float: left;color: #757575 }
+.ColumnBox_2 .news li a:hover {color:#ff6600;}
+.ColumnBox_2 .news li span { float:right;}
+.Partner { margin-bottom:40px; }
+.Partner .bd a{display:inline-block !important; display:block;width: 28px;height: 28px;text-indent: -10000px; margin:10px 20px 0 0;float: left;}
+.Partner .bd .icon_1 {background-position:0 -116px;}
+.Partner .bd .icon_2{background-position:-59px -116px;}
+.Partner .bd .icon_3{background-position:-118px -116px;}
+.Partner .bd .icon_4{background-position:-176px -116px;}
+.Partner .bd .icon_5{background-position:-236px -116px;}
+.Partner .bd .icon_6{background-position:-294px -116px;}
+.Partner .bd .icon_7{background-position:-352px -116px; width: 60px;}
+.Partner .bd .icon_8{background-position:-441px -115px;}
+.Partner .bd .icon_9{background-position:-374px -198px;width: 84px}
+.Partner .bd .icon_10{background-position:0 -153px;width: 80px;}
+.Partner .bd .icon_11{background-position:-119px -154px;width: 90px;}
+.Partner .bd .icon_12{background-position:-255px -154px;width: 50px;}
+
+
+.Crumbs p {letter-spacing:1px;font-family:"SimSun","宋体","Arial Narrow"; margin-bottom:40px; }
+.Crumbs h2 { font-size: 18px;}
+.Crumbs h2 span { font-size: 14px;color: #adadad}
+.Crumbs h2 span span { font-size: 24px; padding-right:5px;}
+.Crumbs h2 i {width: 32px; height: 32px;display:inline-block; position:relative;top: 10px; margin-right: 10px;}
+.Crumbs .help i{background-position:-445px -34px;}
+.Crumbs .card i{background-position:-445px 0;}
+.helpBox {margin-top:20px; margin-bottom:20px;}
+.helpBox dt{font-size: 14px; margin-top: 20px;}
+.helpBox dd{font-family:"SimSun","宋体","Arial Narrow"; margin-top: 20px; border-bottom:1px dashed #2a2a2a; padding-bottom: 20px;}
+.helpBox i {display: inline-block;width: 16px;height: 16px;background-position:-461px -154px;color: #FFF;text-align:center;font-style: normal;margin: 0 10px 0 20px}
+.AffiliateBox { margin-bottom: 90px;}
+.AffiliateBox li { overflow: hidden;border-radius: 10px; border: 1px solid #ccc; padding:15px 12px; width: 205px;float: left;font-family:"SimSun","宋体","Arial Narrow";margin-right: 25px}
+.AffiliateBox li img {display: block; margin:5px 0}
+.AffiliateBox li i { display:block;width: 58px;height: 58px;background-position:0 -184px; float: left; margin-right:15px;}
+.AffiliateBox li i.girl{background-position:-60px -184px;}
+.cardBox,.helpBox {background: url("../img/box_bg.gif") repeat-y;}
+.cardBox .tb,.helpBox .tb{background: url("../img/box_bg_b.gif") no-repeat; width: 100%; height: 18px;}
+.cardBox .bb,.helpBox .bb{background: url("../img/box_bg_b.gif")0 -21px no-repeat; width: 100%; height: 18px;}
+.cardBox h3 {margin: 20px 0 10px 0;}
+.cardBox li { overflow: hidden;float: left;width: 210px;height: 130px; padding: 10px 10px 0 10px;border-radius:10px;border: 1px solid #ccc; margin:20px 20px 0 0;background: #FFF; }
+.cardBox li i { width: 62px;height: 62px; display: block;float: left; margin: 30px 5px 30px 0;}
+.cardBox li h4 { font-size: 18px;font-weight: normal;color: #333;}
+.cardBox li div { border-left: 1px solid #ccc; height: 120px; margin-left: 70px; padding-left:10px;}
+.cardBox li p {font-family:"SimSun","宋体","Arial Narrow"; line-height: 1.6; margin-top:5px;color: #7c7c7c;}
+.cardBox .icon_1 {background-position:-119px -183px;}
+.cardBox .icon_2 {background-position:-181px -183px;}
+.cardBox .icon_3 {background-position:-243px -183px;}
+.cardBox .icon_4 {background-position:-305px -183px;}
+.cardBox .icon_5 {background-position:0 -245px;}
+.cardBox .icon_6 {background-position:-62px -245px;}
+.cardBox .icon_7 {background-position:-124px -245px;}
+.cardBox .icon_8 {background-position:-186px -245px;}
+.cardBox .icon_9 {background-position:-248px -245px;}
+.cardBox .icon_10 {background-position:-310px -245px;}
+.cardBox .icon_11 {background-position:-372px -245px;}
+.cardBox .icon_12 {background-position:0 -307px;}
+.cardBox .icon_13 {background-position:-62px -307px;}
+.cardBox .icon_14 {background-position:-62px -307px;}
+.cardBox .icon_15 {background-position:-124px -307px;}
+.cardBox .icon_16 {background-position:-186px -307px;}
+.cardBox .icon_17 {background-position:-248px -307px;}

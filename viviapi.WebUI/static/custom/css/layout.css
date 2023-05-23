@@ -1,0 +1,203 @@
+﻿/**行业方案容器*/
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* 二级导航 */
+.p-nav-item {
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	font-weight: 500;
+	color: #272727;
+	font-size: 16px;
+}
+
+.p-nav-item:hover,.p-nav-item:focus {
+	color: #0B8AB6;
+	text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.p-nav .active {
+	color: #0B8AB6;
+}
+
+.p-nav .active:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -5px;
+	vertical-align: middle;
+}
+
+/**导航下边线*/
+.p-nav-border {
+	border-bottom: 1px solid #0B8AB6;
+}
+
+/**默认隐藏主内容的div*/
+.main-content-hide {
+	display: none;
+}
+
+/**缩放到小屏时隐藏图标*/
+.col-enable-hide {
+	display: none;
+}
+
+/**slider文字样式*/
+.slider-text {
+	padding: 10px;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, .8);
+	color: #346F8E;
+	text-shadow: none;
+}
+
+/**小于992时隐藏图标，给slider文字添加白色背景，增加可读性*/
+@media ( min-width : 992px) {
+	.col-enable-hide {
+		display: block;
+	}
+	.slider-text {
+		background-color: transparent;
+		border-radius: 0px;
+		padding: 0px;
+	}
+}
+/**设置slider左右两边的翻页样式*/
+.carousel .item {
+	background-color: transparent;
+}
+
+.carousel-control.left,.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-inner>.item>a>img,.carousel-inner>.item>img {
+	margin: 0px 0px 80px 150px;
+}
+
+.carousel-control,.carousel-control.left,.carousel-control.right {
+	color: #8E8F8F;
+}
+
+/**carousel主标题下的文字*/
+.carousel-caption p {
+	font-size: 14px;
+	text-shadow: none;
+	color: #000;
+	margin-top: 20px;
+	line-height:25px;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50px;
+	color: #525252;
+	padding-left: 15%;
+}
+
+@media screen and (min-width: 768px) {
+	.carousel-caption {
+		padding-left: 30%;
+	}
+}
+
+/**主内容标题*/
+.main-tilte {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+/**数字图片*/
+.num1 {
+	background: url(../../images/number.png) no-repeat 0 0;
+}
+
+.num2 {
+	background: url(../../images/number.png) no-repeat 0 -70px;
+}
+
+.num3 {
+	background: url(../../images/tu7.png) no-repeat 0 5px;
+}
+
+.num4 {
+	background: url(../../images/tu7.png) no-repeat 0 -50px;
+}
+
+.num5 {
+	background: url(../../images/tu7.png) no-repeat 0 -100px;
+}
+
+.num6 {
+	background: url(../../images/tu7.png) no-repeat 0 -158px;
+}
+
+.num7 {
+	background: url(../../images/tu7.png) no-repeat 0 -220px;
+}
+
+.order-number {
+	width: 55px;
+	height: 50px;
+}
+
+/**解决方案标题*/
+.solution-title {
+	color: #346F8E;
+	letter-spacing: 2px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+/**解决方案二级标题*/
+.solution-title-2 {
+	font-size: 16px;
+	margin-top: 10px;
+	line-height: 40px
+}
+
+/**三级标题*/
+.solution-t-3 {
+	color: #346F8E;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+/**三级内容*/
+.solution-c-3 {
+	line-height: 25px;
+	font-size: 14px;
+	color:#5F6A6F;
+}
+
+/**分割线*/
+.hr-line {
+	border-bottom: 1px solid #B4C4C4;
+	height: 1px;
+	margin: 15px 0px;
+}
+
+/**修正上边距*/
+.container-fluid-fix {
+	margin-top: 108px;
+}
+
+/**主内容容器*/
+.main-container {
+	width: 100%;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+/**主内容正文*/
+.main-c-text {
+	font-size: 16px;
+	line-height: 40px;
+	color: #5F6A6F;
+}

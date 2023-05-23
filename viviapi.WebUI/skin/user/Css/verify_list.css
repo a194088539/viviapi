@@ -1,0 +1,63 @@
+.tabs {
+	border-bottom: 1px solid #d9d9d9;
+	margin-bottom: 20px;
+}
+.title02 {
+	margin-bottom: 30px;
+}
+.tab1,
+.tab2 {
+	float: left;
+	height: 41px;
+	line-height: 43px;
+	font-size: 16px;
+
+	border: 1px solid #d9d9d9;
+	margin-bottom: -1px;
+	background-color: #fff;
+}
+.tab2 {
+	border-left: none;
+}
+
+.tab1 a,
+.tab2 a {
+	font-size: 16px;
+	display: inline-block;
+	height: 100%;
+	padding: 0 20px;
+	color: #545456;
+}
+.tab-current {
+
+	 border-top: 3px solid #009fd9;
+	 border-bottom: none;
+	 height: 40px;
+ }
+
+.tab-current a{
+	 color: #009fd9;
+
+ }
+/*认证特权*/
+.privilege-enter {
+	position: relative;
+	float: left;
+	height: 41px;
+	line-height: 43px;
+	font-size: 16px;
+	padding-left: 50px;
+}
+.privilege-enter a {
+	color: #ff9e0c;
+	line-height: 40px;
+}
+.crown-logo {
+	position: absolute;
+	top: 13px;
+	left: 26px;
+	display: inline-block;
+	width: 20px;
+	height: 18px;
+	background-image: url(../images/verify_privilige.png);
+}

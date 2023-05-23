@@ -1,0 +1,42 @@
+﻿.NavMenu{clear: both;border-right: #7197b8 1px solid;border-top: #7197b8 1px solid;background: #e0f2ff;border-left: #7197b8 1px solid;border-bottom: #7197b8 1px solid;height: 100%;width:100%}
+div.NavMenuContainer{padding-bottom: 10px;width: 100%;color: #ffffff}
+div.NavMenuContainer div{background: url(Images/menu_title.gif) no-repeatoverflow: hidden}
+div.NavMenuContainer div:unknown
+{}
+div.NavMenuContainer div span{padding-right: 30px;display: block;padding-left: 50px;font-weight: bold;background: url(Images/menu_action.gif) no-repeat;padding-bottom: 7px;cursor: pointercolor: #ffffff;padding-top: 6px}
+div.NavMenuContainer div.collapsed
+{margin-bottom: 1px;height: 27px}
+div.NavMenuContainer div.collapsed span
+{color: #5f81af}
+
+/*  项类(一个分类样式)   */
+div.NavMenuContainer div.collapsed span.sys
+{background: url(Images/menu_collapsed_sys.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.fun
+{background: url(Images/menu_collapsed_fun.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.log
+{background: url(Images/menu_collapsed_log.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.create
+{background: url(Images/menu_collapsed_create.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.member
+{background: url(Images/menu_collapsed_member.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.theme
+{background: url(Images/menu_collapsed_theme.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.safety
+{background: url(Images/menu_collapsed_safety.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.data
+{background: url(Images/menu_collapsed_data.gif) no-repeat}
+div.NavMenuContainer div.collapsed span.plugin
+{background: url(Images/menu_collapsed_plugin.gif) no-repeat}
+/*  链接类   */
+div.NavMenuContainer div a
+{padding-right: 10px;display: block;padding-left: 10px;background: #e0f2ff;padding-bottom: 6px;color: #3b577b;padding-top: 6px}
+/*  被选中链接类   */
+div.NavMenuContainer div a.current
+{padding-right: 10px;border-top: #97b4d5 1px solid;padding-left: 10px;font-weight: bold;background: url(Images/menu_arrow1.gif) #fefefe no-repeat right center;padding-bottom: 5px;color: #7cc417;padding-top: 5px;border-bottom: #97b4d5 1px solidtext-decoration: none}
+div.NavMenuContainer div a:link
+{text-decoration: none}
+div.NavMenuContainer div a:visited
+{text-decoration: none}
+div.NavMenuContainer div a:hover
+{padding-right: 10px;border-top: #97b4d5 1px solid;padding-left: 10px;background: #fefefe;padding-bottom: 5px;color: #ff6600;padding-top: 5px;border-bottom: #97b4d5 1px solid;text-decoration: none}

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FC5360E-B2DA-4521-A123-8C176B8DDAD5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>viviLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>viviLib</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AntiXssLibrary, Version=1.5.0.0, Culture=neutral, PublicKeyToken=bcdc0d0c766dd6e4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AntiXssLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AES.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Configuration\ConfigHelper.cs" />
+    <Compile Include="Configuration\LogSetting.cs" />
+    <Compile Include="Data\SearchParam.cs" />
+    <Compile Include="ExceptionHandling\ExceptionHandler.cs" />
+    <Compile Include="Image\VerifyImage.cs" />
+    <Compile Include="Image\VerifyImageInfo.cs" />
+    <Compile Include="IO\File.cs" />
+    <Compile Include="Logging\LogHelper.cs" />
+    <Compile Include="PageData.cs" />
+    <Compile Include="ScheduledTask\IScheduledTaskExecute.cs" />
+    <Compile Include="ScheduledTask\ScheduledTask.cs" />
+    <Compile Include="ScheduledTask\ScheduledTaskConfiguration.cs" />
+    <Compile Include="ScheduledTask\ScheduledTaskConfigurationSectionHandler.cs" />
+    <Compile Include="ScheduledTask\ScheduledTaskExecuteBase.cs" />
+    <Compile Include="ScheduledTask\ScheduledTaskLog.cs" />
+    <Compile Include="Security\AntiXss.cs" />
+    <Compile Include="Security\Cryptography.cs" />
+    <Compile Include="Security\Des3.cs" />
+    <Compile Include="SqlKey.cs" />
+    <Compile Include="Text\PageValidate.cs" />
+    <Compile Include="Text\Regular.cs" />
+    <Compile Include="Text\RegularType.cs" />
+    <Compile Include="Text\Strings.cs" />
+    <Compile Include="Text\Validate.cs" />
+    <Compile Include="TimeControl\FormatConvertor.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Utils\Common.cs" />
+    <Compile Include="Utils\DirFile.cs" />
+    <Compile Include="Utils\FileHelp.cs" />
+    <Compile Include="Utils\MessageObject.cs" />
+    <Compile Include="Utils\RandomController.cs" />
+    <Compile Include="Utils\Request.cs" />
+    <Compile Include="Utils\StringText.cs" />
+    <Compile Include="Utils\TypeParse.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Web\IPHelper.cs" />
+    <Compile Include="Web\SafeCookie.cs" />
+    <Compile Include="Web\ServerVariables.cs" />
+    <Compile Include="Web\WebBase.cs" />
+    <Compile Include="Web\WebClientHelper.cs" />
+    <Compile Include="XRequest.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

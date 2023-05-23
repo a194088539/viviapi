@@ -1,0 +1,325 @@
+@CHARSET "UTF-8";
+/**é¡¶éƒ¨é»‘è‰²èœå•æ */
+#topbar{
+	background-color: #1E1B29;
+	width: 100%;
+	height: 28px;
+	color: #fff;
+	min-width: 420px;
+}
+
+/**å¯¼èˆªå®¹å™¨paddingä¸Šä¸‹è¾¹è·*/
+.navbar-container {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+/**è¦†ç›–bootstrapé»˜è®¤å¯¼èˆªæ ·å¼ï¼Œä¸æ˜¾ç¤ºåœ†è§’*/
+.navbar {
+    border-radius: 0px;
+}
+
+/**é‡å†™panelæ ·å¼,è°ƒæ•´åº•è¾¹è·å’Œå–æ¶ˆåœ†è§’*/
+.panel {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+/**.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover*/
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover
+	{
+	color: #2D88A3;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #2D88A3;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #272727;
+	font-size: 16px;
+}
+
+.nav>li>a {
+	padding: 15px 25px;
+}
+
+/**è®¾ç½®å¯¼èˆªå·¦è¾¹åŠ¨æ€è·ç¦»*/
+.nav-link-direction {
+	float: left;
+}
+
+/**logo*/
+.mo-logo {
+	background: url(../../images/logov2.png);
+	width:85px;
+	height:45px;
+}
+
+@media ( min-width : 768px) {
+	.nav-link-direction {
+		float:right;
+	}
+}
+
+@media ( min-width : 998px) {
+	.mo-logo {
+        background: url(../../images/logov3.png) no-repeat;
+        width: 358px;
+        height:45px;
+    }
+}
+
+@media ( min-width : 1200px) {
+	.nav-link-direction {
+		margin-left: 320px;
+	}
+}
+
+/**ä¿®æ­£logoä¸Šä¸‹è¾¹è·*/
+.navbar-brand {
+	padding: 3px 15px;
+}
+
+/**ç»™å¯¼èˆªæ¡æ·»åŠ é€æ˜Žæ•ˆæžœ*/
+.rgba {
+	background: #fff;
+	background: rgba(255, 255, 255, .9);
+}
+
+/**topbar*/
+.topbar-container {
+	color: #E8E8E8;
+	height: 100%;
+	margin-left: 15px;
+	margin-right: 30px;
+	line-height: 2.4;
+}
+
+.topbar-nav {
+	float: right;
+}
+
+.topbar-nav-text {
+	display: none;
+}
+
+.topbar-nav-ico {
+	display: inline-block;
+}
+
+.topbar-notify {
+	display: none;
+}
+
+.topbar-nav ul,li {
+	list-style: none;
+}
+
+.topbar-nav ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+@media ( min-width : 980px) {
+	.topbar-nav-text {
+		display: inline-block;
+	}
+	.topbar-nav-ico {
+		display: none;
+	}
+	.topbar-notify {
+		display: -moz-inline-box;
+		display: inline-block;
+		width: 400px;
+	}
+}
+
+@media ( min-width : 1366px) {
+	.topbar-container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media ( min-width : 1600px) {
+	.topbar-container {
+		width: 78%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/**topbaré“¾æŽ¥æ ·å¼*/
+.topbar-container a {
+	text-decoration: none;
+	color: #E8E8E8;
+}
+
+.topbar-container a:hover {
+	color: #00bbee;
+}
+
+/**ä¸‹æ‹‰èœå•*/
+.arrow-down {
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-width: 5px 5px 0 5px;
+	border-color: #eeeeee transparent transparent transparent;
+	border-style: solid dashed dashed dashed;
+}
+
+.am-service {
+	position: relative;
+}
+
+.am-service .arrow-down {
+	*position: relative;
+	*top: -3px;
+	*left: 3px;
+	margin-left: 3px;
+	-webkit-transition: .5s 0s all;
+	-o-transition: .5s 0s all;
+	-moz-transition: .5s 0s all;
+	-ms-transition: .5s 0s all;
+	transition: .5s 0s all;
+}
+
+.am-service:hover .arrow-down {
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.am-service .downlist {
+	padding: 5px 0;
+	top: 28px;
+	left: 20px;
+	width: 80px;
+	text-align: center;
+	display: none;
+	border: 1px #f1f1f1 solid;
+	border-width: 0 1px 1px 1px;
+	background: #fff;
+	position: absolute;
+}
+
+.am-service .downlist a {
+	color: #000;
+	display: block;
+}
+
+.downlist a:hover {
+	color: #00bbee;
+}
+
+.am-service:hover .downlist {
+	display: block;
+	z-index: 500;
+}
+/**custom service*/
+.custom-service-ico {
+	width:12px;
+	height:14px;
+	margin-top:6px;
+	background:url(../../images/QQ.png) no-repeat;
+}
+
+/**footbar*/
+.footbar-padding-fix {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.footbar {
+	background-color: #3B3D3E;
+	width: 100%;
+	height: 50%;
+}
+
+.footbar-top {
+	width: 100%;
+	padding-top: 45px;
+	color: #9E9E9E;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+
+.footbar-line {
+	width: 100%;
+	height: 2px;
+	border-top: 1px solid #2F3132;
+	border-bottom: 1px solid #414344;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+/**é‡å†™carouselå¯¼èˆªåœ†ç‚¹æ ·å¼*/
+.carousel-indicators .active {
+	margin: 0px 5px;
+	color:#f00;
+	background-color: #0B8AB6;
+    border: 1px solid #0B8AB6;
+}
+
+.carousel-indicators li {
+	margin: 0px 5px;
+	background-color: #BABBBB;
+    border: 1px solid #BABBBB;
+}
+
+.carousel-indicators li {
+    height: 12px;
+    width: 12px;
+}
+
+/**å¸®åŠ©ä¸­å¿ƒå’Œå®‰å…¨ä¸­å¿ƒæ­£æ–‡çš„æ ‡é¢˜å’Œå†…å®¹*/
+.q-title {
+    font-size:14px;
+    font-weight:600;
+}
+.q-answer {
+	font-size:12px;
+    line-height:25px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+/**åº•éƒ¨é“¾æŽ¥æ ·å¼*/
+.footbar-top a,.footbar-top a:active,.footbar-top a:visited {
+	color:#9E9E9E;
+}
+.footbar-top a:hover{
+	color:#fff;
+}
+
+/**åº•éƒ¨å›¾æ ‡æ ·å¼*/
+.a_ico{ width:250px;height:34px;margin:20px auto;}
+.a_ico a{ display:inline-block; height:34px;} 
+.ic1{ background:url(../../images/ico_one.png); width:62px;}
+.ic2{ background:url(../../images/ico_two.png); width:35px;}
+.ic3{ background:url(../../images/ico_three.png); width:39px;}
+.ic4{ background:url(../../images/ico_four.png); width:46px;}
+.ic5{ background:url(../../images/blzj.png); width:34px;height:34px}
+
+.internet_police{ width:230px; height:34px; margin:15px auto;}
+		.u-org {margin-left: 3px;}
+		.u-org a{display:inline-block;background:url(../../images/index.png) no-repeat 0 -32px;height:30px;width:60px;overflow:hidden}
+		.u-org a.ssl:hover {background-position:0 0}
+		.u-org a.baxx {width:30px;background-position:-70px -32px}
+		.u-org a.baxx:hover{background-position:-70px 0}
+		.u-org a.wsbj{width:30px;background-position:-110px -32px}
+		.u-org a.wsbj:hover{background-position:-110px 0}
+		.u-org a.zfxk {width:41px;background-position:-150px -32px}
+		.u-org a.zfxk:hover{background-position:-150px 0}
+		.u-org a.yue { width:33px; height:33px; background:url(../../images/y1.png);}
+        .u-org a.yue:hover{ background:url(../../images/y2.png);}
+
+        
+
+		

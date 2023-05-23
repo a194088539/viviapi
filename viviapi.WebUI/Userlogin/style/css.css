@@ -1,0 +1,184 @@
+body{margin:0px; padding:0px; font-size:12px; line-height:20px; background:url(images/bg.gif) repeat-x #f7f7f7; color:#666;}
+ul,li,p{margin:0px; padding:0px;}
+li{float:left; list-style:none;}
+
+
+a{color:#666; text-decoration:none;}
+.c{clear:both;}
+.main{width:1000px; margin:auto;}
+.bai,.bai a{color:#fff;}
+.qianlan,.qianlan a{color:#2d8399}
+.font-14{font-size:14px; font-weight:bold;}
+.mt10{margin-top:10px;}
+.center{text-align:center;}
+.fgf{height:10px; overflow:hidden;}
+
+
+
+
+
+/*top*/
+#logo{height:66px;}
+#logo img{float:left;}
+#logo div{float:right; line-height:40px;}
+
+
+#menu{height:46px; line-height:46px;}
+#menu span a{float:left; display:block; width:106px; background:url(images/mengbg.gif) no-repeat right; text-align:center;}
+#menu span a:hover{background:url(images/mbg2.gif) no-repeat center; display:block; height:40px; margin-top:-6px;}
+#menu .yes a{background:url(images/mbg2.gif) no-repeat center; height:40px; display:block; margin-top:-6px;}
+#menu img{float:left; position:absolute;}
+
+
+.banner_box{width:100%; position:relative; overflow:hidden; height:350px; top:1px; margin-top:-8px;  background-color:#FFFEF8}
+.banner{position:relative; z-index:1;}
+.banner_list{position:absolute; left:0px; top:0px; z-index:0; width:999999px}
+.banner_list img{float:left; width:2000px; position:relative; border:0px;}
+.banner_btn{position:absolute; z-index:29; height:20px; padding-right:8px; background-color:#E3E2DD; top:328px; left:10px}
+.banner_btn li{width:12px; height:12px; float:left; display:inline; margin-top:4px; margin-left:8px; cursor:pointer; overflow:hidden; background:url(images/icoAllbgs.png) no-repeat -328px -50px}
+.banner_btn li.current{background:url(images/icoAllbgs.png) no-repeat -328px -65px}
+.circularl,.circular{position:absolute; width:10px; height:20px; background:url(images/icoAllbgs.png) no-repeat 0px -294px; top:0px; left:-10px}
+.circular{background:url(images/icoAllbgs.png) no-repeat -10px -294px; top:0px; left:auto; right:-10px}
+
+
+#banner{background:url(images/b1.jpg) no-repeat center; height:353px;}
+#login{width:275px; height:275px; padding:10px; background:url(images/loginbg.gif) no-repeat top left #fff;border:1px #d7d7d7 solid; float:right; margin-top:30px;}
+#login .loginm{margin-left:60px; line-height:30px; margin-bottom:10px;}
+#login .loginm img,#banner #login .loginm span{margin-top:5px;}
+#login .loginm input{width:200px; height:30px; line-height:30px; border:1px #b4ccb8 solid; color:#aeaeae;}
+#login .loginm .yzm{width:60px; float:left; margin-right:20px;}
+#login .loginm .none{width:auto; height:auto; border:0px; float:left;}
+
+
+
+#note{background:url(images/note.gif) no-repeat; line-height:33px; height:33px; margin-top:10px;}
+#note .a1{width:90px; float:left; text-align:center; margin-right:15px;}
+#note .a2{width:710px; float:left;}
+#note .a3{float:left;}
+#note .a3 a{display:block; width:160px;}
+
+
+#leftindex{width:722px; float:left; margin-right:15px;_margin-right:13px; margin-top:10px;}
+#leftindex .i1{border:1px #ddd solid; background:url(images/001.gif) repeat-x #fff;}
+#leftindex .i1 .xxbt span,#rightindex .i1 .xxbt span,.reg span,#searchheaderout .i1 .xxbt span,.neiright  .i1 .xxbt span{width:120px; margin-left:20px; float:left; text-align:center; height:33px; line-height:33px; margin-top:8px;}
+#leftindex .i1 .xxbt .yes,#rightindex .i1 .xxbt .yes,.reg .yes,#searchheaderout .i1 .xxbt .yes,.neiright .i1 .xxbt .yes{background:url(images/002.gif) no-repeat; color:#fff;}
+#leftindex .i1 .xxbt .xxnr{padding:10px;}
+#leftindex .i1 .xxbt .xxnr .jj img{float:left; margin-right:10px;}
+#leftindex .i1 .xxbt .xxnr .l1{float:left; width:280px; margin-right:10px; margin-left:30px;}
+#leftindex .i1 .xxbt .xxnr .l2{float:left;}
+#leftindex .i2{margin:10px 0px;}
+
+
+#rightindex{float:left; width:263px; margin-top:10px;}
+#rightindex .i1{border:1px #ddd solid; background:url(images/001.gif) repeat-x #fff;}
+#rightindex .i1 .xxbt .xxnr{padding:10px 5px;}
+#rightindex .i1 .xxbt .xxnr .kl li{width:33%; text-align:center; background:url(images/005.gif) no-repeat center; line-height:26px; height:26px;}
+
+.linelan{height:4px; overflow:hidden; background:#0072df;}
+#foot{background:#eaeaea; padding:15px 0px;}
+
+
+
+#neileft{background:url(images/001.png) no-repeat; width:203px; height:514px; float:left; padding-top:50px; z-index:100; margin-left:-982px;}
+#neileft p{height:46px; line-height:46px;  text-align:right; padding-right:35px;}
+#neileft p a:hover{color:#FF3300;}
+#neileft .yes{background:url(images/002.png) right no-repeat; display:block;}
+
+
+#neiright{width:739px; padding:10px 20px; float:left; background:#fff; border:1px #ddd solid; margin-top:10px; margin-left:203px;}
+#neiright .list{border-bottom:1px #ccc dashed; padding:10px 0px;}
+#neiright .list img{border:1px #999999 solid; padding:4px; float:left; margin-right:10px;}
+#neiright .list .jj .bt a{color:#1865b1;}
+
+.page{margin-left:200px;}
+.page span{padding:3px; min-width:22px;text-align:center; margin-top:30px; display:block; float:left; border:1px #ccc solid; margin-right:10px;}
+.page a{padding:3px; min-width:22px;text-align:center; margin-top:30px; display:block; float:left; border:1px #ccc solid; margin-right:10px;}
+.page .yes{background:#0f8ffc; color:#fff;}
+.page .no{width:auto; border:none;}
+#neiright .listpic{border-bottom:1px #ccc dashed; padding:10px 0px;}
+#neiright .listpic .pic{float:left; margin-right:33px;}
+#neiright .listpic .nnone{margin:0px;}
+.content .bt{font-size:20px; font-weight:bold; line-height:30px; color:#666;}
+.content .jj{background:#fdf8e7; padding:10px; border:1px #f4e9be solid; margin:20px 0px;}
+.content .nr{line-height:26px;}
+.content .nr p{text-indent:2em; margin-bottom:10px;}
+
+
+
+
+.reg{ margin-top:10px;border:1px #ddd solid; background:url(images/001.gif) repeat-x #fff;}
+.reg .regbd{padding-top:10px; margin-bottom:10px;}
+.regbd li{clear:both; width:900px; margin-bottom:10px;}
+.regbd li input{width:300px; height:36px; line-height:36px; border:1px #ddd solid; float:left;}
+.regbd li .yzm{width:60px;}
+.regbd li img,.regbd li span{float:left;}
+.regbd li div{float:left; margin-left:20px; width:410px; line-height:36px;}
+.reg p{padding-left:135px; margin-bottom:20px;}
+
+
+#searchheaderout{ margin-top:10px;border:1px #ddd solid; background:#fff;}
+#searchheaderout .i1{background:url(images/001.gif) repeat-x #fff;}
+#searchheaderout .input{width:300px; height:36px; line-height:36px; border:1px #ddd solid; float:left;}
+#searchheaderout .search{padding-left:200px;}
+#searchheaderout .search span{float:left; margin:10px 0px; padding:0px;}
+ .result {clear:both;width:965px;height:210px;padding-top:10px;margin:0px 0 15px 15px;} 
+ .result img{margin-bottom:10px;}
+ .result h3 {height:28px;margin-bottom:20px;text-indent:-9999px;background:url(images/result.jpg) no-repeat left center;}
+ .result table {width:965px;text-align:center;background:#e0e0e0;}
+ .result table tr {height:32px;	}
+
+ .result table tr.dark {background:#efefef;}
+ .result table tr th {color:#666;width:130px;font-size:14px;}
+ .result table tr td {width:130px;}
+ .result table tr.result td {background:#fff;}
+ 
+#topmenu{background:url(/style/008.gif) repeat-x; height:27px; line-height:27px;}
+#topmenu .right{float:right;}
+#topmenu .left{float:left;}
+.neiright{width:779px; padding:0px;border:1px #ddd solid; margin-top:10px; margin-left:203px; float:left;background:url(images/001.gif) repeat-x #fff; padding-bottom:10px;}
+
+.kelist{padding:10px;}
+.kelist li{width:49%; border-bottom:1px #ddd dashed; padding-bottom:10px;}
+.kelist li .img{float:left; border:1px #ddd solid; padding:2px; margin-right:10px;}
+.kelist li div{float:left;}
+
+.onShow {
+	COLOR: #999
+}
+.onFocus {
+	POSITION: relative
+}
+.onError {
+	COLOR: red
+}
+.onSuccess {
+	
+}
+.onLoad {
+	PADDING-LEFT: 12px; BACKGROUND: url(../images/loading.gif) #e9ffeb no-repeat 3px 3px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.onCorrect {
+	COLOR: green
+}
+.onShow
+{
+	background: url(../images/onshow.gif) no-repeat 0 0;
+}
+.onFocus
+{
+	background: url(../images/onfocus.gif) no-repeat 0 0;
+}
+.onError
+{
+	background: url(../images/onerror.gif) no-repeat 0 0;
+}
+.onCorrect
+{
+	background: url(../images/oncorrect.gif) no-repeat 0 0;
+}
+.onLoad
+{
+	background: url(../images/onload.gif) no-repeat 3px 3px;
+}
+
+

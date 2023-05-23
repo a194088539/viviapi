@@ -1,0 +1,47 @@
+td{padding:5px}
+
+body{padding:10px 0 0 10px}
+
+table th{text-align:right; padding-right:8px}
+
+
+.listtab{
+	height:30px;
+	overflow:hidden
+}
+
+.listtab ul{
+	float:left
+}
+
+.listtab ul li{
+	float:left
+}
+
+.listtab ul li a{
+	display:block;
+	height:28px;
+	line-height:28px;
+	padding:0 20px;
+	border:1px solid #ccc;
+	margin-left:4px;
+	_display:inline;
+	cursor:pointer
+}
+
+.listtab ul li a.selected{
+	background:#19b3db;
+	color:#fff;
+	border:1px solid #0085a7
+}
+
+
+.send{
+	height: 25px;
+	line-height: 25px;
+	border:1px solid #ccc;
+	background: #f5f5f5
+}
+
+
+

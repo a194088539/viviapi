@@ -1,0 +1,12 @@
+/*outter module*/
+@import "/static/pinganfuweb-modules/consumer/popUp/1.0.0/icon.css";
+@import "/static/pinganfuweb-modules/jquery/jquery-ui/1.10.4/jquery-ui.css";
+
+/*--//@yu 2015.8.21 加入新密码控件样式 删除老的样式---*/
+@import "/static/pinganfuweb-modules/pafweblib/password/1.0.0/password.css";
+@import "/static/pinganfuweb-modules/pafweblib/btn/2.0.0/btn.css";
+@import "/static/pinganfuweb-modules/pafweblib/form/1.0.0/form.css";
+
+/*innner module*/
+@import "./index-src.css";
+@import "./announcement.css";

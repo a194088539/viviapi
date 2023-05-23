@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <!--Project was exported from assembly: C:\Documents and Settings\Administrator\桌面\bin\viviapi.BLL.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A126A0F-84D6-4328-8482-B7C24B6BA2B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>viviapi.BLL</AssemblyName>
+    <RootNamespace>viviapi.BLL</RootNamespace>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ads\CPS.cs" />
+    <Compile Include="manager\ManageFactory.cs" />
+    <Compile Include="Payment\OrderConvernFactory.cs" />
+    <Compile Include="Payment\PayKeyFactory.cs" />
+    <Compile Include="Payment\PaymodeType.cs" />
+    <Compile Include="Payment\PayPriceConverFactory.cs" />
+    <Compile Include="Payment\PayRateFactory.cs" />
+    <Compile Include="Payment\Pay_PriceFactory.cs" />
+    <Compile Include="SupplierFactory.cs" />
+    <Compile Include="SupplierPayRateFactory.cs" />
+    <Compile Include="template\SinglePageFactory.cs" />
+    <Compile Include="SmsLogFactory.cs" />
+    <Compile Include="news\NewsFactory.cs" />
+    <Compile Include="ads\CPA.cs" />
+    <Compile Include="order\Sms\OrderSms.cs" />
+    <Compile Include="tools\IMSGFactory.cs" />
+    <Compile Include="Sys\WebInfoFactory.cs" />
+    <Compile Include="pay\PayLogFactory.cs" />
+    <Compile Include="ads\AdsFactory.cs" />
+    <Compile Include="ResultVFactory.cs" />
+    <Compile Include="PUserBasepage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="order\OrderNotifyBase.cs" />
+    <Compile Include="Withdraw\distribution.cs" />
+    <Compile Include="Withdraw\SettledFactory.cs" />
+    <Compile Include="template\TempLabelFactory.cs" />
+    <Compile Include="Sys\SystemApiInfo.cs" />
+    <Compile Include="order\Card\OrderCardNotify.cs" />
+    <Compile Include="Sys\SysConfig.cs" />
+    <Compile Include="Sys\feedback.cs" />
+    <Compile Include="order\Card\OrderCardAsynchronous.cs" />
+    <Compile Include="template\templateFactory.cs" />
+    <Compile Include="pay\ptypeconffactory.cs" />
+    <Compile Include="other\PhoneValidFactory.cs" />
+    <Compile Include="order\Bank\OrderBankNotify.cs" />
+    <Compile Include="BaseFactory.cs" />
+    <Compile Include="User\RegUserFactory.cs" />
+    <Compile Include="order\Sms\OrderSmsAsynchronous.cs" />
+    <Compile Include="WebSiteFactory.cs" />
+    <Compile Include="User\PromotionUserFactory.cs" />
+    <Compile Include="Sys\SystemApiHelper.cs" />
+    <Compile Include="order\Sms\OrderSmsNotify.cs" />
+    <Compile Include="order\Card\OrderCardSynchronous.cs" />
+    <Compile Include="order\Bank\OrderBankSynchronous.cs" />
+    <Compile Include="pay\PayFactory.cs" />
+    <Compile Include="ads\AdsPicFactory.cs" />
+    <Compile Include="order\Bank\OrderBankAsynchronous.cs" />
+    <Compile Include="feedback\feedback.cs" />
+    <Compile Include="stat\DayData.cs" />
+    <Compile Include="order\Sms\OrderSmsSynchronous.cs" />
+    <Compile Include="order\Card\OrderCard.cs" />
+    <Compile Include="order\Bank\OrderBank.cs" />
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="User\UserAccessTime.cs" />
+    <Compile Include="User\UsersAmt.cs" />
+    <Compile Include="User\userHost.cs" />
+    <Compile Include="User\EmailCheck.cs" />
+    <Compile Include="User\UserFactory.cs" />
+    <Compile Include="User\Question.cs" />
+    <Compile Include="User\usersetting.cs" />
+    <Compile Include="User\UserLoginLogFactory.cs" />
+    <Compile Include="User\FindPwdFactory.cs" />
+    <Compile Include="User\userspaybank.cs" />
+    <Compile Include="User\usersIdImage.cs" />
+    <Compile Include="User\UserPayBankApp.cs" />
+    <Compile Include="order\usersOrderIncome.cs" />
+    <Compile Include="Sys\debuglog.cs" />
+    <Compile Include="Sys\Constant.cs" />
+    <Compile Include="Sys\Transaction\YeePay\DES.cs" />
+    <Compile Include="Sys\Transaction\YeePay\HmacMD5.cs" />
+    <Compile Include="Sys\Transaction\YeePay\Digest.cs" />
+    <Compile Include="Sys\Transaction\YeePay\YeePay.cs" />
+    <Compile Include="Withdraw\channelwithdraw.cs" />
+    <Compile Include="Withdraw\settledAgentNotify.cs" />
+    <Compile Include="Withdraw\CommonHelper.cs" />
+    <Compile Include="Withdraw\settledAgent.cs" />
+    <Compile Include="Withdraw\notifyHelper.cs" />
+    <Compile Include="Withdraw\settledAgentSummary.cs" />
+    <Compile Include="Api\PayBank20.cs" />
+    <Compile Include="Api\SellCard20.cs" />
+    <Compile Include="settled\IncreaseAmt.cs" />
+    <Compile Include="settled\TocashScheme.cs" />
+    <Compile Include="settled\transferscheme.cs" />
+    <Compile Include="settled\Trade.cs" />
+    <Compile Include="settled\UsersAmtFreeze.cs" />
+    <Compile Include="settled\ManageTrade.cs" />
+    <Compile Include="settled\transfer.cs" />
+    <Compile Include="order\Helper.cs" />
+    <Compile Include="order\OrderDal.cs" />
+    <Compile Include="order\Card\TaskInterval.cs" />
+    <Compile Include="order\RequestState.cs" />
+    <Compile Include="order\Bank\TaskInterval.cs" />
+    <Compile Include="order\reconciliation_temp.cs" />
+    <Compile Include="tools\db.cs" />
+    <Compile Include="tools\SMS.cs" />
+    <Compile Include="tools\idcards.cs" />
+    <Compile Include="channel\channelTypeUsers.cs" />
+    <Compile Include="channel\channelsupplier.cs" />
+    <Compile Include="channel\channelType.cs" />
+    <Compile Include="channel\channel.cs" />
+    <Compile Include="channel\CodeMapping.cs" />
+    <Compile Include="channel\currchannel.cs" />
+    <Compile Include="financial\tenpay_batch_trans_detail.cs" />
+    <Compile Include="financial\tenpay_batch_trans_head.cs" />
+    <Compile Include="basedata\identitycard.cs" />
+    <Compile Include="basedata\base_province.cs" />
+    <Compile Include="basedata\base_city.cs" />
+    <Compile Include="stat\OrderReport.cs" />
+    <Compile Include="app\apprecharge.cs" />
+    <Compile Include="app\recharge.cs" />
+    <Compile Include="app\entrust.cs" />
+    <Compile Include="app\transfer.cs" />
+    <Compile Include="SMS.cs" />
+    <Compile Include="Api\Constant.cs" />
+    <Compile Include="Api\ApiBase.cs" />
+    <Compile Include="tools\IdcardInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBAccess\DBAccess.csproj">
+      <Project>{9ECEC847-B14C-46D3-98DC-F9E15C7A8EC4}</Project>
+      <Name>DBAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IBLLStrategy\IBLLStrategy.csproj">
+      <Project>{241161DB-3A11-4CF0-A147-9F3F1DC23D1C}</Project>
+      <Name>IBLLStrategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IMessaging\IMessaging.csproj">
+      <Project>{3AF0C114-51C1-4486-BC35-8CA008FF535F}</Project>
+      <Name>IMessaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessagingFactory\MessagingFactory.csproj">
+      <Project>{5B904E4E-EDDD-4F05-864A-731A54F45E99}</Project>
+      <Name>MessagingFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScpClient\ScpClient.csproj">
+      <Project>{C89B6F5E-5C25-451C-8040-15551C40568E}</Project>
+      <Name>ScpClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.Cache\viviapi.Cache.csproj">
+      <Project>{AC3F2790-6608-423D-A7C9-A67E4BE7CE18}</Project>
+      <Name>viviapi.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.DALFactory\viviapi.DALFactory.csproj">
+      <Project>{27EA515E-01D3-4677-AF40-F1E450A883FD}</Project>
+      <Name>viviapi.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.DAL\viviapi.DAL.csproj">
+      <Project>{242A31B5-3B84-467D-A239-D9438CC9C4F0}</Project>
+      <Name>viviapi.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.IDAL\viviapi.IDAL.csproj">
+      <Project>{73E9AB11-7ADA-4D60-A258-A1BA1C44B78A}</Project>
+      <Name>viviapi.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.Model\viviapi.Model.csproj">
+      <Project>{E94B9E47-2A44-42C3-BFA5-072BF0B3F8CF}</Project>
+      <Name>viviapi.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviapi.SysConfig\viviapi.SysConfig.csproj">
+      <Project>{655047D7-967B-41AE-BA41-1E41EC237A15}</Project>
+      <Name>viviapi.SysConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\viviLib\viviLib.csproj">
+      <Project>{1FC5360E-B2DA-4521-A123-8C176B8DDAD5}</Project>
+      <Name>viviLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

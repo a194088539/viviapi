@@ -1,0 +1,146 @@
+*{font-size:12px;}
+body {font-family:helvetica,tahoma,verdana,sans-serif;padding:20px;font-size:13px;margin:0;}
+h2 {font-size:18px;font-weight:bold;margin:0;margin-bottom:15px;}
+
+.grid {
+    border: 1px solid #8DB2E3;
+    font: 12px arial,helvetica,sans-serif;
+}
+.grid td {
+    font: 100% arial,helvetica,sans-serif;
+    height: 24px;
+    padding: 5px;
+}
+.grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+.grid th {
+    background: none repeat scroll 0 0 #E7F3FE;
+    border: 1px solid #8DB2E3;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+}
+.grid td {
+    border: 1px solid #8DB2E3;
+    padding-left: 5px;
+}
+.grid2 {
+    border: 1px solid #8DB2E3;
+    font: 12px arial,helvetica,sans-serif;
+}
+.grid2 td {
+    font: 100% arial,helvetica,sans-serif;
+    height: 24px;
+    padding: 5px;
+    text-align: center;
+}
+.grid2 {
+    border-collapse: collapse;
+    width: 100%;
+}
+.grid2 th {
+    background: none repeat scroll 0 0 #E7F3FE;
+    border: 1px solid #8DB2E3;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+}
+.grid2 td {
+    border: 1px solid #8DB2E3;
+    padding-left: 5px;
+}
+
+#layout_west_tree li ul li div{padding:5px 5px 3px 5px;}
+#layout_west_tree li div{padding:5px 5px 3px 10px;}
+
+#header{overflow:hidden;height:69px;background:#2076C3 url("images/index/headbg.png") repeat-x;line-height:64px;color:#fff;font-family:Verdana,微软雅黑,黑体}
+.header{background: url(images/index/logo.png) no-repeat left; width: 310px; height: 64px; float: left;}
+
+.light-info{background:#FFFEE6;color:#8F5700;padding:12px;}
+.light-tip{width:16px;height:16px;margin-right:8px;float:left;}
+
+.icon_company{background: url('images/ext/company.png') no-repeat center center;}
+.icon_dic{background: url('images/ext/dic.png') no-repeat center center;}
+.icon_folder{background: url('images/ext/folder.png') no-repeat center center;}
+.icon_add{background: url('images/ext/add.png') no-repeat center center;}
+.icon_home{background: url('images/ext/home.png') no-repeat center center;}
+.icon_refresh{background: url('images/ext/refresh.png') no-repeat center center;}
+.icon_org{background: url('images/ext/org.png') no-repeat center center;}
+.icon_resource{background: url('images/ext/resource.png') no-repeat center center;}
+.icon_role{background: url('images/ext/role.png') no-repeat center center;}
+.icon_user{background: url('images/ext/user.png') no-repeat center center;}
+.icon_del{background: url('images/ext/del.png') no-repeat center center;}
+.icon_sys {background: url('images/ext/sys.png') no-repeat center center;}
+.icon_save {background: url('images/ext/filesave.png') no-repeat center center;}
+.icon_export {background: url('images/ext/export.png') no-repeat center center;}
+.classtd{text-align: right;background-color: #e8f1ff}
+
+.classtdl{text-align: left;background-color: #e8f1ff}
+
+.classctd{text-align: center;background-color: #e8f1ff}
+
+a.btn-tool{
+    color: #fff;
+    background: #1a7bc9;
+    padding:5px 5px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    text-decoration: none;
+}
+a.btn-tool i{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-right:5px;
+}
+.textbox {
+  position: relative;
+  border: 1px solid #95B8E7;
+  background-color: #fff;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  height: 20px;
+}
+
+table.tableclass{
+	padding:10px;
+}
+table.tableclass td{
+	height:28px;
+}
+table.tableclass td.td-left{
+	width:80px;
+	text-align:right;
+}
+table.tableclass td.td-right{
+	width:120px;
+	text-align:left;
+}
+.public-hd{
+	background:#ebedec;
+	border:#dfdfdf 1px solid;
+	border-bottom:none;
+	height:26px;
+	line-height:26px;
+}
+.public-hd .hd-left{
+	float:left;
+}
+.public-hd .hd-right{
+	float:right;
+}
+.public-hd .hd-right span{
+	padding-right:10px;
+	color:#0000ee
+}

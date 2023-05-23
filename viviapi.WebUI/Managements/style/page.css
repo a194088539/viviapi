@@ -1,0 +1,37 @@
+﻿table { FONT-WEIGHT:normal;line-height:170%;FONT-FAMILY:Arial}
+A:link {COLOR:#237C04;TEXT-DECORATION: none}
+td {height:20px; line-height:20px; font-size:12px;padding:0px; }
+.td_title,th {height:20px;line-height:22px;font-weight:bold;border:0px solid #fff;text-align:left;}
+.td1 {padding-right:3px;padding-left:3px;color:#999999;padding-bottom:0px;padding-top:5px;height:25px;}
+.td2 {padding-right:3px;padding-left:8px;padding-top:5px;color:#083772;background:#EFF3FB;font-size:12px;text-align:right; width:35%}
+.td3 {padding:1px 1px 0 0px;color:#083772;background:#EFF3FB;font-size:12px;text-align:center;}
+.moban {padding-top:0px;border:0px}
+input { border:1px solid #999;padding:3px;margin-left:10px;font:12px tahoma;ling-height:16px;
+	height: 26px;
+}
+.input4 {border:1px solid #999;padding:3px;margin-left:10px;font:11px tahoma;ling-height:16px;height:45px;}
+.button {color: #135294; border:1px solid #666; height:21px; line-height:21px;}
+.nrml{background-color:#eeeeee;font-weight: bold;}
+.radio { border:none; }
+.checkbox { border:none; }
+.addnew {font-size: 12px;color: #FF0000;}
+a.servername{height:470px;width: 527px;color:#E54202;cursor:hand;}
+.current {border:#ff6600 1px solid;}
+a:hover {height:470px;width: 527px;color:#E54202;cursor:hand;}
+#nav LI A.noncurrent {/*border:#DC171E 3px solid;*/}
+#nav UL {PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px}
+#nav LI {DISPLAY: inline; padding-left:10px;}
+#nav LI a:hover {border:#B6E000 1px solid;}
+#nav li A:visited {border:#ff0000 1px solid;}
+img{border:#CCCCCC 1px solid;padding:0 5px}
+#tplPreview {
+position: absolute;
+top:0px;
+left:0px;
+background:#ffffff;
+border:1px solid #333;
+font-size:12px;
+color:#4B4B4B;
+padding:12px 15px 15px 15px;
+}
+.tbtitle{font-weight: bold; font-size: 14px; background: url(images/topbg.gif) repeat-x;color: teal; height: 28px}

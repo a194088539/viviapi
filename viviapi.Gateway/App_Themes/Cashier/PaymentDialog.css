@@ -1,0 +1,92 @@
+
+/* 
+	收银台支付状态对话框 
+
+    <div class="dlgMask"></div>
+    dsasdfdsfdsaf
+    <div class="pay-dialog">
+        <div class="dlg-head">支付宝安全支付</div>
+        <div class="dlg-body">
+            <div>订单编号：DDDDDDDDDDDDDDDDDDDDD</div>
+            <div>订单金额：100.00</div>
+        </div>
+        <div class="dlg-foot">
+            <a>支付遇到问题</a>
+            <a class="active">已成功付款</a>
+        </div>
+    </div>
+*/
+
+.dlgMask {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,.6);
+}
+
+.pay-dialog {
+    display: none;
+    top: 50%;
+    left: 50%;
+    width: 668px;
+    height: 180px;
+    z-index: 100;
+    position: fixed;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: -334px;
+    margin-top: -90px;
+}
+
+    .pay-dialog a {
+        color: black;
+        text-decoration: none;
+    }
+
+        .pay-dialog a:hover {
+            color: black;
+        }
+
+    .pay-dialog > * {
+        padding: 10px 25px;
+    }
+
+    .pay-dialog > div.dlg-head {
+        color: white;
+        border-radius: 5px 5px 0 0;
+        background-color: #2185C7;
+    }
+
+    .pay-dialog > div.dlg-body {
+        height: 50px;
+        margin: 10px;
+        text-align: left;
+        padding-left: 100px;
+        background-image: url(../../Images/working.gif);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+
+    .pay-dialog > div.dlg-foot {
+        text-align: center;
+    }
+
+        .pay-dialog > div.dlg-foot > a {
+            width: 120px;
+            margin: 0 10px;
+            line-height: 30px;
+            border-radius: 3px;
+            text-align: center;
+            display: inline-block;
+            background-color: #EDEBEB;
+            border: 1px solid #CDCECE;
+        }
+
+            .pay-dialog > div.dlg-foot > a.active {
+                color: white;
+                border-color: #FF8100;
+                background-color: #FF8100;
+            }

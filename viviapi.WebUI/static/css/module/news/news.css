@@ -1,0 +1,226 @@
+﻿/*banner*/
+.news-banner {
+	background-color: #0a77cf;
+}
+.module-banner-bg {
+	background: url(img/news_banner_part.png) no-repeat right center;
+}
+
+/*news-main*/
+.news-main {
+	padding-top: 31px;
+	margin-bottom: 72px;
+}
+/*news-tabs*/
+.news-tabs {
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.news-tabs-btn {
+	float: left;
+	width: 120px;
+	height: 40px;
+	margin-right: 20px;
+}
+.news-tabs-link {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+	background-color: #eee;
+	border-radius: 3px;
+	-webkit-transition: background-color 0.3s,color 0.3s;
+	-moz-transition: background-color 0.3s,color 0.3s;
+	transition: background-color 0.3s,color 0.3s;
+}
+.news-tabs-link:hover {
+	background-color: #009ed6;
+	color: #fff;
+}
+.news-tab-current {
+	background-color: #009ed6;
+	color: #fff;
+}
+/*news-list*/
+.news-list-box {
+}
+.news-list {
+	width: 100%;
+}
+.news-piece {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	border-bottom: 1px dashed #eee;
+}
+.news-mark {
+	position: absolute;
+	left: 1px;
+	top: 39px;
+	width: 4px;
+	height: 6px;
+	background: url(img/news_mark.gif) no-repeat center center;
+	margin-top: -10px;
+}
+.news-piece:hover {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #eee;
+}
+.news-piece:hover .news-mark {
+	-webkit-animation: mark-shake 0.8s ease infinite;
+}
+
+.news-piece a {
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+	margin-left: 12px;
+}
+.news-piece a:hover {
+	color: #009ed6;
+	text-decoration: underline;
+}
+.news-time {
+	font-size: 12px;
+	color: #999;
+	float: right;
+	margin-right:10px;
+	font-style: normal;
+}
+.news-top {
+	display: inline-block;
+	width: 42px;
+	height: 18px;
+	text-align: right;
+	padding-right: 5px;
+	margin-left: 1%;
+	font-size: 12px;
+	color: #fff;
+	background: url(img/news_top.png) no-repeat 0 0;
+}
+@-webkit-keyframes mark-shake {
+	0%{left:1px}
+	25%{left:3px}
+	50%{left:5px}
+	75%{left:3px}
+	100%{left:1px}
+}
+
+/*新闻 内容页面*/
+/*news-crumbs*/
+.news-content-main {
+	padding-bottom: 70px;
+}
+.news-content-title {
+	width: 100%;
+	padding-top: 38px;
+	padding-bottom: 36px;
+	border-bottom: 1px solid #ddd;
+}
+.news-crumbs {
+}
+.news-crumbs li {
+	float: left;
+	font-size: 14px;
+	color: #666;
+}
+.news-crumbs-link {
+	color: #009ed6;
+	text-decoration: none;
+}
+.news-crumbs-home {
+	background: url(img/news_home.png) no-repeat 0 0;
+	padding-left: 20px;
+}
+.news-crumbs-arrow {
+	margin: 0 5px;
+}
+.news-title-abbr {
+	width: 240px;
+	vertical-align: top;
+}
+/*news-article*/
+.news-article {
+	width: 100%;
+	padding-top: 40px;
+}
+.news-article-title {
+	text-align: center;
+	color: #009ed6;
+	font-size: 24px;
+	font-weight: normal;
+}
+.news-article-subtitle {
+	position: relative;
+	width: 100%;
+	padding-top: 20px;
+}
+.news-article-time {
+	text-align: center;
+	color: #b8b8b8;
+}
+.news-article-share {
+	position: absolute;
+	right: 0;
+	top: 18px;
+}
+.news-article-share div{
+	display: inline-block;
+	box-sizing: content-box;
+}
+
+.news-article-main {
+	margin-top:35px;
+
+	color: #666;
+	line-height: 24px;
+	padding: 0 15px;
+}
+.news-article-main p {
+	font-size: 15px;
+	text-indent: 2em;
+	line-height: 2em;
+	margin-bottom: 15px;
+}
+.news-article-main a {
+	color: #666;
+	text-decoration: none;
+}
+.news-article-main .link {
+	color: #666;
+	text-decoration: none;
+}
+/* 恢复 编辑内容 的strong样式，并去掉 SEO目的的 strong标签样式 */
+.news-article-main strong {
+	font-weight: bold;
+}
+.news-article-main .link strong {
+	font-weight: normal;
+}
+/*media-link*/
+.media-link {
+	margin-top: 33px;
+	margin-left: 2%;
+	padding: 10px 15px 10px;
+	background-color: #d9f5ff;
+	color: #666;
+	font-size: 14px;
+	width: 96%;
+}
+.copy-url-btn {
+	cursor: pointer;
+}
+.copy-url-btn:hover {
+	color: #005aff;
+}
+.media-link i {
+	display: none;
+	color: #1961b3;
+	font-style: normal;
+}
+

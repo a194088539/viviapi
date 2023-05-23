@@ -1,0 +1,71 @@
+
+
+
+
+#uploads{
+	height: 80px;
+	float: left;
+}
+
+
+
+#uploads .pic{
+	display: inline-block;
+	width: 80px;
+	line-height: 80px;
+	position: relative;
+	margin-right: 10px;
+}
+
+
+#uploads .pic .src{
+	display: inline-block;
+	width: 80px;
+	line-height: 80px;
+	position:relative;
+}
+
+
+#uploads .pic .progress{
+	display: inline-block;
+	position: absolute;
+	width: 80px;
+	line-height: 80px;
+	bottom:0;
+	left:0;
+	color:#fff;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	opacity:0.6;
+	background: #000;
+	text-align:center;
+}
+
+
+
+
+#uploads .pic .progress a{
+	color: #fff
+}
+
+
+
+#upload_button{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+
+.upload_tips{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 10px;
+	clear: both;
+	width: 99%;
+	font-size: 12px;
+	color: #999
+}
+

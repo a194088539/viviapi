@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="viviapi.WebUI.Merchant.Base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>客户后台</title>
+    <link href="/merchant/static/style/master.css" rel="stylesheet" type="text/css" />
+
+    <script language="Javascript" src="/merchant/static/js/png.js"></script>
+
+    <script type="text/javascript" src="/merchant/static/js/lib/jquery-1.4.2.js"></script>
+
+    <script type="text/javascript" src="/merchant/static/js/sdmenu.js"></script>
+
+    <script type="text/javascript" src="/merchant/static/js/mymenu.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        var lktitle = "金丝雀提示：";
+        function reinitIframe() {
+            try {
+                var iframe = document.getElementById("main");
+                iframe.height = document.documentElement.clientHeight - 112;
+
+                $(function() {
+                    //窗体改变大小时,重新设置
+                    $(window).resize(function() {
+                        //重新获取窗口的宽高
+                        reinitIframe();
+                    });
+                });
+            } catch (ex) { }
+        }
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="top">
+        <div id="top_up">
+            <div id="logo">
+                <img src="/merchant/static/style/logo2.jpg" /></div>
+            <div id="exit">
+                <div id="exit_right">
+                    <asp:HyperLink ID="hlinkLastIp"
+                        runat="server" Target="_blank"></asp:HyperLink>&nbsp;|&nbsp;<a href="/usermodule/account/index.aspx">平台新版本</a>&nbsp;|<a href="loginout.aspx">安全退出</a>&nbsp;|&nbsp;<a
+                            target="_blank" href="/">首页</a></div>
+                <div id="exit_left">
+                    <img src="/merchant/static/style/3.jpg" /></div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div id="top_down">
+            <div id="user">
+                <div id="user_left">
+                    <img src="/merchant/static/style/06.jpg" width="42" height="42" /></div>
+                <div id="user_right">
+                    <h3>
+                        <asp:Literal ID="litUserName" runat="server"></asp:Literal></h3>
+                    <p>
+                        您已经成功登录！</p>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <!--顶部结束-->
+    <!--内容部分开始-->
+    <div id="wrapper">
+        <!--左部导航开始-->
+        <div id="left">
+            <div id="tools">
+                <a target="main" href="welcome.aspx">轻松支付从这开始</a></div>
+            <div style="float: left" id="my_menu" class="sdmenu">
+                <div class="">
+                    <h2>
+                        <p>
+                            订单管理</p>
+                        <img src="/merchant/static/style/ico_01.png" width="26" height="39" onload="fixPNG(this)" /></h2>
+                    <a href="orderbank.aspx">网银订单</a> <a href="ordercards.aspx">卡类订单</a> <a href="bankreport.aspx">
+                        网银通知</a> <a href="cardreport.aspx">点卡通知</a> <a href="excha.aspx">批量销卡</a>
+                </div>
+                <div class="collapsed">
+                    <h2>
+                        <p>
+                            商品管理</p>
+                        <img src="/merchant/static/style/ico_03.png" width="26" height="39" onload="fixPNG(this)" /></h2>
+                    <a href="cardprice.aspx">卡类面值</a> <a href="banktype.aspx">网银种类</a> <a href="costrate.aspx">
+                        结算费率</a>
+                </div>
+                <div class="collapsed">
+                    <h2>
+                        <p>
+                            结算管理</p>
+                        <img src="/merchant/static/style/ico_05.png" width="26" height="39" onload="fixPNG(this)" /></h2>
+                    <a href="accountmoney.aspx">账户余额</a> <a href="incomestat.aspx">收益明细</a> <a href="applycost.aspx">
+                        申请提现</a> <a href="costlog.aspx">结算记录</a> <a href="recharge.aspx">账户充值</a> <a href="rechargelist.aspx">
+                            充值记录</a> <a href="recharge.aspx">账户充值</a> <a href="rechargelist.aspx">充值记录</a>
+                    <a href="transfer.aspx">余额转账</a> <a href="transferlist.aspx">转账记录 </a>
+                </div>
+                <div class="collapsed">
+                    <h2>
+                        <p>
+                            对私代发</p>
+                        <img src="/merchant/static/style/ico_05.png" width="26" height="39" onload="fixPNG(this)" /></h2>
+                    <a href="import.aspx">代发上传</a> <a href="importlist.aspx">上传记录</a> <a href="importitems.aspx">
+                        上传明细</a> <a href="agentdists.aspx">接口代发</a> <a href="setting.aspx">代发设置</a>
+                </div>
+                <div class="collapsed">
+                    <h2>
+                        <p>
+                            安全中心</p>
+                        <img src="/merchant/static/style/ico_06.png" width="26" height="39" onload="fixPNG(this)" /></h2>
+                    <a href="safeques.aspx">设置密保</a> <a href="repassword.aspx">密码修改</a> <a href="cashpass.aspx">
+                        提现密码</a> <a href="modiphone.aspx">手机认证</a> <a href="modiemail.aspx">修改邮箱</a>
+                    <a href="safetrna.aspx">实名认证</a>
+                </div>
+                <div class="collapsed">
+                    <h2>
+                        <p>
+                            账户管理</p>
+                        <img src="/merchant/static/style/ico_02.png" width="26" height="39" onload="fixPNG(this)" /></h2>
+                    <a href="baseinfo.aspx">基本信息</a> <a href="costinfo.aspx">结算信息</a> <a href="apiinfo.aspx">
+                        接口信息</a> <a href="messages.aspx">站内消息</a> <a href="feedbacks.aspx">留言反馈</a>
+                </div>
+            </div>
+        </div>
+        <!--左部导航结束-->
+        <!--右部表单开始-->
+        <div id="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--底部开始-->
+            <div id="footer">
+                深圳神之脉 版权所有 Copyright © 2010－2014 All Rights Reserved
+            </div>
+            <!--底部结束-->
+        </div>
+        <!--右部表单结束-->
+        <div class="clear">
+        </div>
+    </div>
+    <!--内容部分结束-->
+    </form>
+</body>
+</html>

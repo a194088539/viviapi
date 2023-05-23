@@ -1,0 +1,13 @@
+a {color: #333;}
+a,a:link,a:visited,a:active{text-decoration:none;}
+body, button, input, select, textarea {font: 12px/1.5 "Microsoft Yahei", tahoma, Srial, helvetica, sans-serif;}
+
+.autowidth{margin: 0 auto;min-width:980px;max-width:1200px;padding: 0 10px;}
+.w980{width: 980px;margin:0 auto;overflow: hidden;}
+div.left{float:left}
+div.right{float:right}
+
+.main-body * {box-sizing: content-box;}
+
+/* 旧版页面引用jQuery1.8.0，动画效果有bug，故这里不使用透明 */
+#toTop {opacity: 1 !important;}

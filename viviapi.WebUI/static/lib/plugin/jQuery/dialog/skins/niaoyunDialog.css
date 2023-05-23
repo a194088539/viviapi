@@ -1,0 +1,260 @@
+@charset "utf-8";
+/*
+ * artDialog skin
+ * /code.google.com/p/artdialog/
+ * (c) 2009-2011 TangBin, /www.planeArt.cn
+ *
+ * This is licensed under the GNU LGPL, version 2.1 or later.
+ * For details, see: /creativecommons.org/licenses/LGPL/2.1/
+ */
+
+/* common start */
+body {
+	_margin: 0;
+	_height: 100%; /*IE6 BUG*/
+}
+.aui_outer {
+	text-align: left;
+}
+.aui_inner {
+	padding: 0 20px;
+}
+table.aui_border, table.aui_dialog {
+	border: 0;
+	margin: 0;
+	border-collapse: collapse;
+	width: auto;
+}
+.aui_header, .aui_buttons button {
+	font: 12px/1.11 'Microsoft Yahei', Tahoma, Arial, Helvetica, STHeiti;
+	_font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, STHeiti;
+	-o-font-family: 'Microsoft Yahei', Tahoma, Arial;
+}
+.aui_header {
+}
+.aui_title {
+	overflow: hidden;
+	margin:0 auto;
+	text-overflow: ellipsis;
+}
+.aui_state_noTitle .aui_title {
+	display: none;
+}
+.aui_close {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	outline: none;
+	_cursor: pointer;
+}
+.aui_close:hover {
+	text-decoration: none;
+}
+.aui_main {
+	padding: 20px 0;
+	text-align: center;
+	min-width: 9em;
+	min-width: 0 \9/*IE8 BUG*/;
+}
+.aui_content {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	text-align: left;
+	border: none 0;
+	font-size: 14px;
+	padding: 40px 25px;
+}
+.aui_content.aui_state_full {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0 !important;
+	height: 100%;
+}
+.aui_loading {
+	width: 96px;
+	height: 32px;
+	text-align: left;
+	text-indent: -999em;
+	overflow: hidden;
+	background: url(icons/loading.gif) no-repeat center center;
+}
+.aui_icon {
+	vertical-align: middle;
+}
+.aui_icon div {
+	width: 48px;
+	height: 48px;
+	margin: 10px 0 10px 20px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.aui_buttons {
+	padding: 0 12px 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+.aui_buttons button {
+	padding: 0px 25px;
+	height: 35px;
+	line-height: 35px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	*padding: 4px 10px;
+	*height: 2em; /*letter-spacing:2px;*/
+	font-family: "Microsoft Yahei", Tahoma, Arial/9 !important;
+	width: auto;
+	overflow: visible;
+	*width: 1;
+	color: #fff;
+	background: #c9c9c9;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	-o-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+.aui_buttons button + button {
+	margin-left: 26px;
+}
+.aui_buttons button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+.aui_buttons button:focus {
+	outline: none 0;
+}
+.aui_buttons button:hover {
+	background: #bababa;
+}
+.aui_buttons button:active {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bababa', endColorstr='#ddd');
+	background: linear-gradient(top, #bababa, #ddd);
+	background: -moz-linear-gradient(top, #bababa, #ddd);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bababa), to(#ddd));
+}
+.aui_buttons button[disabled] {
+	cursor: default;
+	color: #666;
+	background: #DDD;
+	border: solid 1px #999;
+	filter: alpha(opacity=50);
+	opacity: .5;
+	box-shadow: none;
+}
+button.aui_state_highlight {
+	color: #FFF;
+	background: #26c5ff;
+	border: none;
+}
+button.aui_state_highlight:hover {
+	color: #FFF;
+	background: #26b7ef;
+}
+button.aui_state_highlight:active {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#328fc1', endColorstr='#22aff8');
+	background: linear-gradient(top, #328fc1, #22aff8);
+	background: -moz-linear-gradient(top, #328fc1, #22aff8);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#328fc1), to(#22aff8));
+}
+/* common end */
+
+.aui_inner {
+	background: #FFF;
+	border-top: 4px solid #26c5ff;
+}
+.aui_border {
+	box-shadow: inset 0 0 1px rgba(255, 255, 255, .9);
+}
+.aui_state_focus .aui_outer {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+/*设置对话框阴影*/
+.aui_state_lock .aui_border {
+	box-shadow: 0 3px 26px rgba(12, 12, 12, 0.9);
+}
+.aui_state_drag .aui_outer, .aui_outer:active {
+	box-shadow: none;
+}
+.aui_titleBar {
+	position: relative;
+	height: 100%;
+	width: 94%;
+	margin: 0 auto;
+}
+.aui_title {
+	line-height: 50px;
+	padding: 0px 28px 0px 5px;
+	font-weight: normal;
+	color: #767676;
+	font-family: "Microsoft Yahei", Tahoma, Arial/9 !important;
+	border-bottom: 1px solid #eee;
+	font-size: 20px
+}
+.aui_state_focus .aui_title {
+	color: #4c5a5f;
+}
+.aui_state_drag .aui_title {
+}
+.aui_state_drag .aui_titleBar {
+	box-shadow: none;
+}
+.aui_close {
+	padding: 0;
+	top: 31%;
+	right: 4px;
+	width: 21px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 45px;
+	color: #575757;
+	text-align: center;
+	font-family: Helvetica, STHeiti;
+	_font-family: Tahoma, '\u9ed1\u4f53', 'Book Antiqua', Palatino;
+}
+.aui_close:hover {
+	color: #26c5ff;
+}
+.aui_close:active {
+	-webkit-transform: scale(0.9);
+}
+.aui_content {
+	color: #666;
+}
+.aui_state_focus .aui_content {
+	color: #333;
+}
+.aui_state_noTitle .aui_inner {
+	border-top: 4px solid #26c5ff;
+	background: #FFF;
+}
+.aui_state_noTitle .aui_outer {
+	border: none 0;
+	box-shadow: none;
+}
+.aui_state_noTitle .aui_close {
+	top: 0;
+	right: 0;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	text-indent: 0;
+	font-size: 18px;
+	text-decoration: none;
+	color: #214FA3;
+	background: none;
+	filter: !important;
+}
+.aui_state_noTitle .aui_close:hover, .aui_state_noTitle .aui_close:active {
+	text-decoration: none;
+	color: #900;
+}
+.aui_state_noTitle .aui_dialog {
+	box-shadow: none;
+}

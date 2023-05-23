@@ -1,0 +1,198 @@
+.clear-float {
+	clear: both;
+}
+.title02 .Annkela img{
+	margin-top:4px;
+}
+.payment-method {
+	width: 100%;
+	margin-top: 70px;
+	border-top: 1px solid #ccc;
+	padding-top: 40px;
+}
+.bank-payment ,
+.alipay-payment{
+	position: relative;
+	padding-left: 10px;
+}
+.alipay-payment{
+	margin-top:30px;
+}
+.method-title {
+	position: absolute;
+	top: 0;
+	left: 40px;
+	width: 14px;
+	line-height: 30px;
+	padding: 15px 10px;
+	color: #fff;
+	background-color: #009fd9;
+	font-size: 14px;
+	text-align: center;
+}
+.card-detail,
+.more-card ,
+.alipay-account,
+.more-alipay-account{
+	border: 1px solid #d2d2d2;
+	float: left;
+	width: 15%;
+	min-width: 202px;
+	margin-right:2%;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+/*.bank-card-list{*/
+	/*min-width:800px;*/
+/*}*/
+.card-num {
+	padding-top: 56px;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.card-num p ,
+.alipay-account-detail p{
+	text-align: center;
+	font-size: 14px;
+	color: #555555;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.delete-card, .more-card-txt {
+	text-align: center;
+	padding: 5px;
+	border-top: 1px solid #d2d2d2;
+}
+.more-card {
+	float: left;
+	margin-right:0;
+}
+.more-card a ,
+.more-alipay-account a{
+	display: inline-block;
+	padding-top: 35px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.more-card a:hover,
+.more-alipay-account a:hover{
+	color:#ff7200;
+}
+.more-card a:hover .more-plus,
+.more-alipay-account a:hover .more-plus {
+	color:#ff7200;
+}
+.more-plus{
+	color:#01a0d8;
+	font-size:132px;
+	font-style: normal;
+	font-family: serif;
+	font-weight: 100;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s ease;
+}
+.more-card-txt {
+	display: block;
+}
+.alipay-account-detail{
+	padding-top: 56px;
+	background: url(../images/alipay.png) no-repeat center 12px;
+
+}
+/*银行卡图样式*/
+.card-icbc {
+	background-image: url(../images/bank_logos_big/bank_icbc.png);
+}
+.card-icbc-b2b {
+	background-image: url(../images/bank_logos_big/bank_icbc_etp.png);
+}
+.card-abc {
+	background-image: url(../images/bank_logos_big/bank_abc.png);
+}
+.card-abc-b2b {
+	background-image: url(../images/bank_logos_big/bank_abc_etp.png);
+}
+.card-bjbank {
+	background-image: url(../images/bank_logos_big/bank_beijing.png);
+}
+.card-boc {
+	background-image: url(../images/bank_logos_big/bank_boc.png);
+}
+.card-boc-b2b {
+	background-image: url(../images/bank_logos_big/bank_boc_etp.png);
+}
+.card-ccb {
+	background-image: url(../images/bank_logos_big/bank_ccb.png);
+}
+.card-ccb-b2b {
+	background-image: url(../images/bank_logos_big/bank_ccb_etp.png);
+}
+.card-dlb {
+	background-image: url(../images/bank_logos_big/bank_dalian.png);
+}
+.card-ceb {
+	background-image: url(../images/bank_logos_big/bank_everbright.png);
+}
+.card-gdb {
+	background-image: url(../images/bank_logos_big/bank_guangfa.png);
+}
+.card-hzcb {
+	background-image: url(../images/bank_logos_big/bank_hangzhou.png);
+}
+.card-hsbc {
+	background-image: url(../images/bank_logos_big/bank_hsbc.png);
+}
+.card-hxb {
+	background-image: url(../images/bank_logos_big/bank_huaxia.png);
+}
+.card-comm {
+	background-image: url(../images/bank_logos_big/bank_jiaotong.png);
+}
+.card-cmbc {
+	background-image: url(../images/bank_logos_big/bank_minsheng.png);
+}
+.card-nbbank {
+	background-image: url(../images/bank_logos_big/bank_ningbo.png);
+}
+.card-spabank {
+	background-image: url(../images/bank_logos_big/bank_pingan.png);
+}
+.card-spdb {
+	background-image: url(../images/bank_logos_big/bank_pufa.png);
+}
+.card-spdb-b2b {
+	background-image: url(../images/bank_logos_big/bank_pufa_etp.png);
+}
+.card-shbank {
+	background-image: url(../images/bank_logos_big/bank_shanghai.png);
+}
+.card-sjb {
+	background-image: url(../images/bank_logos_big/bank_shengjing.png);
+}
+.card-szdb {
+	background-image: url(../images/bank_logos_big/bank_shenzhen.png);
+}
+.card-cib {
+	background-image: url(../images/bank_logos_big/bank_xingye.png);
+}
+.card-postgc {
+	background-image: url(../images/bank_logos_big/bank_youzheng.png);
+}
+.card-cmb {
+	background-image: url(../images/bank_logos_big/bank_zhaoshang.png);
+}
+.card-cmb-b2b {
+	background-image: url(../images/bank_logos_big/bank_zhaoshang_etp.png);
+}
+.card-czsb {
+	background-image: url(../images/bank_logos_big/bank_zheshang.png);
+}
+.card-citic {
+	background-image: url(../images/bank_logos_big/bank_zhongxin.png);
+}

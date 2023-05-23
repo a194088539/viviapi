@@ -1,0 +1,33 @@
+﻿/*body{
+	margin:0;
+	padding:0;
+	font-family: "宋体", "黑体", Arial;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #FFFFFF;
+}*/
+#login{width:286px;height:296px;overflow:hidden;position:relative;}
+#login .nbg{background:#010101;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);opacity: 0.6;width:286px;height:296px;position:absolute;top:0;left:0;z-index:20px;}
+#login .h ul{list-style:none;width:286px;height:50px;margin:0;padding:0;z-index:999;position:absolute;top:0;left:0;}
+#login .h ul li{width:142px;height:50px;float:left;margin:0;padding:0;}
+#login .h ul li a{width:142px;height:50px;line-height:50px;font-weight: 600;font-size: 14px;color: red;text-decoration: none;display: block;text-align: center;background:#fbfbfb;text-shadow: -1px -1px 0 #FFF;}
+#login .h ul li a.cur{background:none;color:#ffffff;}
+
+#login .form{position:absolute;top:60px;left:31px;width:224px;height:221px;margin:0 auto;background:none;}
+#login .form .txt{height:20px;width:100%;color:#ffffff;line-height:20px;padding-bottom: 2px;}
+#login .form .txt span{float:left;}
+#login .form .txt span.sm{float:right;#ffffff;}
+#login .form .txt span a{color:#ffffff;text-decoration:none;}
+#login .form .ipt{width:100%;height:31px;margin-bottom:5px;}
+#login .form .ipt input{width:216px;border:1px solid #A09E99;font-size:16px;height:30px;line-height:30px;padding:0 3px;font-family:Verdana,"宋体";}
+#login .form .ipt input.code{width:115px;float:left;}
+#login .form .ipt input.user{font-size:12px;color:#CCC;}
+#login .form .ipt img{float:right;}
+#login .form .dg{margin-top:10px;width:224px;height:35px;}
+#login .form .dg .dl{width:109px;height:35px;float:left;}
+#login .form .dg .dl input{width:109px;height:35px;background:url(input.png) no-repeat top center;display:block;border:0;}
+#login .form .dg .dl input:hover{background:url(input.png) no-repeat center -35px;}
+
+#login .form .dg .reg{width:109px;height:35px;float:right;}
+#login .form .dg .reg a{width:109px;height:35px;background:url(reg.png) no-repeat top center;display:block;}
+#login .form .dg .reg a:hover{background:url(reg.png) no-repeat center -35px;}
